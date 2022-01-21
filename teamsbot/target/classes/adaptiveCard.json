@@ -1,0 +1,175 @@
+{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "version": "1.0",
+  "type": "AdaptiveCard",
+  "speak": "Your flight is confirmed for you and 3 other passengers from San Francisco to Amsterdam on Friday, October 10 8:30 AM",
+  "body": [
+    {
+      "type": "TextBlock",
+      "weight": "Bolder",
+      "size": "Medium",
+      "text": "Passengers",
+      "wrap": true
+    },
+    {
+      "type": "FactSet",
+      "facts": [
+        {
+          "weight": "Bolder",
+          "title": "Order Status",
+          "value": "CREATED"
+        },
+        {
+          "title": "Fr Line Id",
+          "value": "1"
+        },
+        {
+          "weight": "Bolder",
+          "title": "Line Status",
+          "value": "CREATED",
+          "horizontalAlignment": "center"
+        }
+      ]
+    },
+    {
+      "type": "ColumnSet",
+      "separator": true,
+      "columns": [
+        {
+          "type": "Column",
+          "width": 1,
+          "items": [
+            {
+              "type": "TextBlock",
+              "text": "Quantity Id",
+              "isSubtle": true,
+              "color": "accent"
+            },
+            {
+              "type": "TextBlock",
+              "color": "accent",
+              "text": "Status"
+            },
+            {
+              "type": "TextBlock",
+              "text": "Quantity Id",
+              "isSubtle": true,
+              "color": "accent"
+            },
+            {
+              "type": "TextBlock",
+              "color": "accent",
+              "text": "Status"
+            }
+          ]
+        },
+        {
+          "type": "Column",
+          "width": "auto",
+          "items": [
+            {
+              "type": "TextBlock",
+              "text": " "
+            }
+          ]
+        },
+        {
+          "type": "Column",
+          "width": 1,
+          "items": [
+            {
+              "type": "TextBlock",
+              "text": "f5be5c9c-ea30-4b01-8f87-cea28821321a",
+              "isSubtle": true,
+              "color": "accent"
+            },
+            {
+              "type": "TextBlock",
+              "text": "FO_SHIPPED",
+              "isSubtle": true,
+              "color": "accent"
+            },
+            {
+              "type": "TextBlock",
+              "text": "f5be5c9c-ea30-4b01-8f87-cea28821321a",
+              "isSubtle": true,
+              "color": "accent"
+            },
+            {
+              "type": "TextBlock",
+              "text": "FO_SHIPPED",
+              "isSubtle": true,
+              "color": "accent"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "ColumnSet",
+      "columns": [
+        {
+          "type": "Column",
+          "items": [
+            {
+              "type": "TextBlock",
+              "weight": "bolder",
+              "text": "Name"
+            },
+            {
+              "type": "TextBlock",
+              "separator":true,
+              "text": "Apple"
+            },{
+              "type": "TextBlock",
+              "separator":true,
+              "text": "Kiwi"
+            }
+          ]
+        },
+        {
+          "type": "Column",
+          "items": [
+            {
+              "type": "TextBlock",
+              "weight": "bolder",
+              "text": "Tag"
+            },
+            {
+              "type": "TextBlock",
+              "separator":true,
+              "text": "Fruit"
+            },{
+              "type": "TextBlock",
+              "separator":true,
+              "text": "Fruit"
+            }
+          ]
+        },
+        {
+          "type": "Column",
+          "items": [
+            {
+              "type": "TextBlock",
+              "weight": "bolder",
+              "text": "Price"
+            },
+            {
+              "type": "TextBlock",
+              "separator":true,
+              "text": "2"
+            },{
+              "type": "TextBlock",
+              "separator":true,
+              "text": "1"
+            }
+          ]
+        }
+      ]
+    }
+
+
+
+      ]
+    }
+

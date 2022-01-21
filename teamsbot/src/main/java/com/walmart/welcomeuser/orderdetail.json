@@ -1,0 +1,3472 @@
+{
+  "createdDate": "2021-10-28T19:24:12.372Z",
+  "modifiedDate": "2021-10-31T21:25:32.218Z",
+  "tenant": "US",
+  "frId": "US|5722106988174",
+  "buId": "0",
+  "martId": "0",
+  "status": "CREATED",
+  "statusChangeDate": "2021-10-28T19:24:12.349+0000",
+  "customerOrderId": "5722106988174",
+  "sellerOrderId": "5722106988174",
+  "frDetails": {
+    "orderDate": "2021-10-28T19:23:10.000+0000",
+    "orderChannelId": null,
+    "sellerName": null,
+    "tcNumber": "38800644586297569529423",
+    "needsConfirmation": true,
+    "partialFulfillments": "QTY_LEVEL",
+    "customer": {
+      "contact": {
+        "name": {
+          "firstName": "Stephanie",
+          "lastName": "Wigge"
+        },
+        "phone": "2604330316",
+        "email": "steph.wigge@gmail.com"
+      },
+      "id": "1d8fdac6-f990-4b44-b979-c65d796418f7"
+    },
+    "paymentDetails": [
+      {
+        "paymentType": "CREDITCARD",
+        "cardType": "MASTERCARD",
+        "last4": "6151",
+        "billTo": {
+          "name": {
+            "firstName": "Stephanie",
+            "lastName": "Wigge"
+          },
+          "phone": "2604330316",
+          "email": "steph.wigge@gmail.com"
+        },
+        "billingAddress": {
+          "line1": "1618 Boone St",
+          "apoFpo": false,
+          "poBox": false,
+          "city": "Fort Wayne",
+          "state": "IN",
+          "country": "USA",
+          "zip": "46808",
+          "addressType": "RESIDENTIAL"
+        }
+      }
+    ],
+    "pickupPersons": [
+      {
+        "contact": {
+          "name": {
+            "firstName": "Stephanie",
+            "lastName": "Wigge"
+          },
+          "email": "steph.wigge@gmail.com"
+        },
+        "address": {
+          "apoFpo": false,
+          "poBox": false,
+          "addressType": "RESIDENTIAL"
+        },
+        "isPrimary": true
+      }
+    ],
+    "deliveryResDetails": [
+      {
+        "orderLineRelations": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8",
+          "9",
+          "10"
+        ],
+        "reservationId": "60ba8728-13e3-4b85-92cc-7c17f3003a25",
+        "startTime": "20:00",
+        "endTime": "21:00",
+        "slotCutOffTime": "2021-10-28T20:45:00.000+0000",
+        "plannedDeliveryTime": "2021-10-29T00:00:00.000+0000",
+        "timezone": "US/Eastern",
+        "scheduleNumber": "953",
+        "loadNumber": "80",
+        "vanId": "van-1804-20211028",
+        "fulfillmentLocationId": "1804",
+        "dispenseType": "PICKUP_CURBSIDE",
+        "priority": "0",
+        "doorStepTime": "500",
+        "vehicleDepartureTime": "2021-10-29T00:00:00.000+0000",
+        "fulfillmentDate": "2021-10-28T00:00:00.000+0000",
+        "fulfillmentLocationType": "Store",
+        "allowedAmendDateTime": "2021-10-28T20:45:00.000+0000",
+        "loadSize": "1",
+        "slotCutOffReceived": true,
+        "pickerDetail": {
+          "pickResourcePool": "ASSOCIATE"
+        }
+      }
+    ],
+    "orderTotals": {
+      "grandTotal": null,
+      "promotionTotal": null,
+      "subtotal": null,
+      "shipping": {
+        "currencyAmount": 5.99,
+        "currencyUnit": "USD"
+      },
+      "tax": null
+    },
+    "instructions": null,
+    "orderLineRelations": null,
+    "bocd": null,
+    "orderOrigin": null,
+    "policyType": null,
+    "policyLevel": null,
+    "platformId": null,
+    "paymentStatus": "AUTHORIZED",
+    "purchaseContractId": "664fe82e-3fe7-4eb5-896a-e85a256b2947",
+    "verticalId": "0",
+    "expoExperimentId": "7DrKM|KWXo_|LxpuV|vAslJ",
+    "subsidiaryId": null,
+    "version": null,
+    "segment": "oaoh",
+    "sellerId": "0",
+    "amendCutOffReceived": false,
+    "isFillEligible": null,
+    "shipments": null,
+    "orderAttributes": null,
+    "multiHopFulfillmentDetailBos": null,
+    "giftDetail": null,
+    "promiseAddressDetails": null,
+    "prePurchaseHandle": "43993efe-8754-4cb1-ad45-910e60af76b6",
+    "boTrackerVersion": 0,
+    "nextBoRetryScheduleDate": null,
+    "orderPlacedTimestamp": "2021-10-28T19:23:10.000+0000"
+  },
+  "frLines": [
+    {
+      "createdDate": "2021-10-28T19:24:12.372Z",
+      "modifiedDate": "2021-10-31T21:25:32.219Z",
+      "frLineId": "1",
+      "status": "CREATED",
+      "statusChangeDate": "2021-10-28T19:24:12.349+0000",
+      "sellerLineId": "1",
+      "verticalId": null,
+      "isConfirmed": true,
+      "bocd": null,
+      "itemDetails": {
+        "itemId": "111968557",
+        "sellerId": "F55CDC31AB754BB68FE0B39041159D63",
+        "legacySellerId": "0",
+        "upc": "078742133010",
+        "description": "Great Value Cinnamon Apple Sauce, 3.2 Oz, 4 Count",
+        "gtin": "00078742133010",
+        "offerId": "EDDBC7A106974947A4133C4C62B29775",
+        "wupc": "0007874213301",
+        "sku": "00078742133010",
+        "win": "557138632",
+        "imageUrl": "https://i5.walmartimages.com/asr/2d08308b-cb1c-42eb-bae6-3cb768e46066_3.068cf57c0a66143abbf8500227b2e09e.jpeg",
+        "sellerType": "INTERNAL"
+      },
+      "frLineDetails": {
+        "isSignOnDelivery": false,
+        "isPreOrder": false,
+        "streetDateType": null,
+        "currentStreetDate": "2021-10-28T19:26:14.074+0000",
+        "previousStreetDate": null,
+        "qty": {
+          "unitOfMeasure": "EA",
+          "measurementValue": 1
+        },
+        "fulfillmentType": "PICKUP",
+        "fulfillmentSubType": null,
+        "shipMethod": null,
+        "shippingSlaTier": "SAME_DAY",
+        "lineDates": [
+          {
+            "dateType": "DELIVERY",
+            "minDate": "2021-10-29T00:00:00.000+0000",
+            "maxDate": "2021-10-29T01:00:00.000+0000"
+          },
+          {
+            "dateType": "SHIPPING",
+            "minDate": "2021-10-29T00:00:00.000+0000",
+            "maxDate": "2021-10-29T01:00:00.000+0000"
+          }
+        ],
+        "forcedShipNode": null,
+        "forcedCarrier": null,
+        "addOnServices": null,
+        "gifting": null,
+        "shippingTo": {
+          "contact": {
+            "name": {
+              "firstName": "Walmart Fort Wayne Store #1804",
+              "lastName": "Walmart Fort Wayne Store #1804"
+            },
+            "email": "steph.wigge@gmail.com"
+          },
+          "storeId": "1804",
+          "address": {
+            "line1": "1710 Apple Glen Blvd",
+            "apoFpo": false,
+            "poBox": false,
+            "city": "Fort Wayne",
+            "state": "IN",
+            "country": "USA",
+            "zip": "46804",
+            "addressType": "OFFICE"
+          }
+        },
+        "chargeDetails": [
+          {
+            "chargeCategory": "PRODUCT",
+            "chargeName": "ItemPrice",
+            "chargePerUnit": {
+              "currencyAmount": 1.53,
+              "currencyUnit": "USD"
+            },
+            "chargePerLine": {
+              "currencyAmount": 1.53,
+              "currencyUnit": "USD"
+            },
+            "isDiscount": false,
+            "isBillable": true
+          },
+          {
+            "chargeCategory": "SHIPPING",
+            "chargeName": "Shipping",
+            "chargePerUnit": {
+              "currencyAmount": 0.51,
+              "currencyUnit": "USD"
+            },
+            "chargePerLine": {
+              "currencyAmount": 0.51,
+              "currencyUnit": "USD"
+            },
+            "isDiscount": false,
+            "isBillable": true
+          }
+        ],
+        "isSubstitutable": true,
+        "isPerishable": false,
+        "weight": null,
+        "instructions": null,
+        "lineAttributes": [
+          {
+            "attributeName": "costOfGoods",
+            "values": [
+              "0"
+            ],
+            "type": "STRING"
+          },
+          {
+            "attributeName": "isAlcohol",
+            "values": [
+              "false"
+            ],
+            "type": "BOOLEAN"
+          }
+        ],
+        "skipInventoryCheck": false,
+        "isSnapEligible": false,
+        "isShipAlone": false,
+        "isShipAsIs": false,
+        "isHazmat": false,
+        "isAirShippable": true,
+        "bundleType": null,
+        "wfsEnabled": false,
+        "storeId": "1804",
+        "fulfilledItemBoList": [
+          {
+            "quantity": {
+              "unitOfMeasure": "EA",
+              "measurementValue": 1.0
+            },
+            "weight": null,
+            "itemDetails": {
+              "gtin": "00078742133010"
+            },
+            "pickedItemDetails": {
+              "gtin": "00078742133010"
+            },
+            "purchaseOrderNo": "9863034680615",
+            "pickType": "ORDERED",
+            "subsType": null,
+            "unitPrice": {
+              "currencyAmount": 1.53,
+              "currencyUnit": "USD"
+            },
+            "pickDetails": null,
+            "unitOfMeasurement": "EA",
+            "priceTypeCode": "1050",
+            "offerId": "EDDBC7A106974947A4133C4C62B29775"
+          }
+        ],
+        "bundleId": null,
+        "streetDate": null,
+        "carePlan": null,
+        "nodeType": "STORE",
+        "accessType": "PICKUP_CURBSIDE",
+        "channelType": null,
+        "accessMode": "DRIVE_IN",
+        "pickupByDate": "2021-10-30T00:00:00.000+0000",
+        "fulfillmentPrerequisites": null,
+        "alternateInboundPathEligibilities": null,
+        "foLineOperationInsight": null,
+        "lineType": "STORE",
+        "isUnscheduledPickup": false,
+        "preferredQuantity": null,
+        "destSpecification": null,
+        "isFillEligible": null,
+        "flags": null,
+        "groupType": null,
+        "groupSubType": null,
+        "bundleQuantity": null,
+        "bundleComponentQty": null,
+        "isUnscheduled": false,
+        "giftCardFaceValue": null,
+        "recommendedBoxes": null,
+        "snapEligible": false,
+        "airShippable": true,
+        "hazmat": false,
+        "perishable": false,
+        "preOrder": false,
+        "shipAlone": false,
+        "substitutable": true,
+        "signOnDelivery": false,
+        "shipAsIs": false
+      },
+      "quantityStatuses": [
+        {
+          "qtyId": "e2ed931a-1fe0-4c6d-b240-d0df4df7cb6b",
+          "status": "CANCELLED",
+          "statusChangeDate": "2021-10-31T21:25:32.086+0000",
+          "createdDate": "2021-10-31T21:25:32.086+0000",
+          "quantityDetails": {
+            "sourcingDetails": {
+              "shipNode": "999901804",
+              "viaLocationId": null,
+              "prevShipNode": null,
+              "carrierMethodId": null,
+              "prevCarrierMethodId": null,
+              "xmlCarrierMethodCode": null,
+              "carrierType": null,
+              "quantity": null,
+              "opd": "2021-10-29T00:00:00.000+0000",
+              "pdd": "2021-10-29T00:00:00.000+0000",
+              "esd": "2021-10-29T00:00:00.000+0000",
+              "valueAddedServices": null,
+              "wpmNo": null,
+              "rdcNo": null,
+              "intermediateHubId": null,
+              "orderCutOff": null,
+              "routeDetails": null,
+              "sourcingErrorBo": null,
+              "status": null,
+              "legacyCode": "LC",
+              "isBackOrder": null,
+              "cancelBODemand": null,
+              "gtin": null,
+              "shipNodeItemId": null,
+              "nodeType": null,
+              "scac": null,
+              "accessMode": null,
+              "accessType": null,
+              "tnt": null,
+              "slaTier": null,
+              "shipMethod": null,
+              "shipNodeOptimizable": null,
+              "handlingCost": null,
+              "fcapPoolId": null
+            },
+            "qty": {
+              "unitOfMeasure": "EA",
+              "measurementValue": 1
+            },
+            "valueAddedServices": null,
+            "storeId": "1804",
+            "fulfilledOfferId": null,
+            "shipNodeItemId": null,
+            "unitCost": null,
+            "sellerLineId": "1",
+            "intentToCancel": true,
+            "boxInstanceId": null,
+            "boxes": null,
+            "boxReferenceId": null,
+            "newFulfillmentType": null,
+            "newShippingMethod": null,
+            "isSellerItem": false,
+            "prevPurchaseOrderNo": null,
+            "purchaseOrderNo": "9863034680615",
+            "sourcingDates": null,
+            "isReshop": false,
+            "reasonCode": "1020",
+            "reasonDescription": "Expired",
+            "subReasonCode": null,
+            "subReasonDescription": null,
+            "reservationDetails": {
+              "messageId": null,
+              "responseCode": null,
+              "responseMessage": null,
+              "reservationStatus": "CS"
+            },
+            "requestId": "91FC562C-E59A-4651-B421-5580DC742CCD",
+            "isSubstitutedFrom": null,
+            "pickType": null,
+            "extrinsticsList": null,
+            "fulfillmentHoldDateTime": null,
+            "fulfillerLineId": "1",
+            "transactionId": "d89017aa-3b4b-476c-b78f-d99f29c48c19",
+            "distributorDetails": {
+              "distributorId": "999901804",
+              "storeId": "1804",
+              "distributorType": "STORE"
+            },
+            "requestType": null,
+            "shipTogetherId": null,
+            "serialNo": null,
+            "activationDetails": null,
+            "activationDetailsVersion": "V2",
+            "activationDetailsBoList": null,
+            "orderBatchingId": null,
+            "releaseCutOffTime": null,
+            "releaseCutOffVersion": null,
+            "anchorQtyShipmentConsidered": false,
+            "nilPickReshop": null,
+            "parentNilPickLineId": null,
+            "itemEnriched": false,
+            "carePlanDetails": null
+          },
+          "rules": null,
+          "eventAttributes": null,
+          "shipmentNo": null,
+          "fulfillmentLegId": null
+        }
+      ],
+      "fulfilledPercentage": null,
+      "attributes": null,
+      "eventAttributes": null,
+      "externalPartnerId": null,
+      "lineType": "PICKUP"
+    },
+    {
+      "createdDate": "2021-10-28T19:24:12.373Z",
+      "modifiedDate": "2021-10-31T21:25:32.219Z",
+      "frLineId": "2",
+      "status": "CREATED",
+      "statusChangeDate": "2021-10-28T19:24:12.349+0000",
+      "sellerLineId": "2",
+      "verticalId": null,
+      "isConfirmed": true,
+      "bocd": null,
+      "itemDetails": {
+        "itemId": "41752773",
+        "sellerId": "F55CDC31AB754BB68FE0B39041159D63",
+        "legacySellerId": "0",
+        "upc": "074494000341",
+        "description": "Lemons, each",
+        "gtin": "00074494000341",
+        "offerId": "8847BAA9878C41B9ACDCAC4C4CA91C52",
+        "wupc": "0007449400034",
+        "sku": "00074494000341",
+        "win": "9490164",
+        "imageUrl": "https://i5.walmartimages.com/asr/b34574b9-0476-40d6-95b8-a54d0dd92bfb_1.5c2cf0cddcc03ee5aa1e181afe8be355.jpeg",
+        "alternateGTINs": [
+          "00036515549581",
+          "00847204049585",
+          "00818654010029",
+          "07798340250010",
+          "00798190095349",
+          "00405512622922",
+          "00036515640332",
+          "00814683010245",
+          "07804613590131",
+          "00000000043045",
+          "07804659430255",
+          "00074494000341",
+          "08114980284335",
+          "00000000075954",
+          "07804643960041",
+          "00000000040334",
+          "00096704000491",
+          "00000000040532",
+          "07798160995139",
+          "07804617550124",
+          "07804628070550",
+          "00850014851040",
+          "07798329810013",
+          "07804628070543",
+          "07799085040539",
+          "00820402184708",
+          "00204958000000",
+          "00818654010036",
+          "07730997380283",
+          "07798011690138",
+          "07798340250027",
+          "07798152541177",
+          "07808725200094",
+          "00840437101761",
+          "00814683010238",
+          "00791928049584",
+          "00051497019198",
+          "00000000049580",
+          "00605049040538",
+          "00820402184661",
+          "00074494000334",
+          "07804653220111",
+          "07798329810020",
+          "07798011690060",
+          "00895009002861",
+          "07798160995122",
+          "07799085040546",
+          "00204053000004",
+          "00082202040336",
+          "07730997380290",
+          "00400094368541",
+          "00204033000000",
+          "00898429002169",
+          "07798152541160",
+          "00605049049586",
+          "00605049040330",
+          "00400094368619",
+          "00820402184715",
+          "00717524510266",
+          "00072240134302",
+          "07804653220104",
+          "00820402184678",
+          "00729062040532",
+          "00898429002176",
+          "00036515440536",
+          "00066022040530",
+          "00898157002127",
+          "00820402184685",
+          "00051497019204",
+          "07804613590148",
+          "00847204040339",
+          "07804643960034",
+          "00847204040537",
+          "07804659430248",
+          "07804630060129"
+        ],
+        "sellerType": "INTERNAL"
+      },
+      "frLineDetails": {
+        "isSignOnDelivery": false,
+        "isPreOrder": false,
+        "streetDateType": null,
+        "currentStreetDate": "2021-10-28T19:26:14.074+0000",
+        "previousStreetDate": null,
+        "qty": {
+          "unitOfMeasure": "EA",
+          "measurementValue": 1
+        },
+        "fulfillmentType": "PICKUP",
+        "fulfillmentSubType": null,
+        "shipMethod": null,
+        "shippingSlaTier": "SAME_DAY",
+        "lineDates": [
+          {
+            "dateType": "DELIVERY",
+            "minDate": "2021-10-29T00:00:00.000+0000",
+            "maxDate": "2021-10-29T01:00:00.000+0000"
+          },
+          {
+            "dateType": "SHIPPING",
+            "minDate": "2021-10-29T00:00:00.000+0000",
+            "maxDate": "2021-10-29T01:00:00.000+0000"
+          }
+        ],
+        "forcedShipNode": null,
+        "forcedCarrier": null,
+        "addOnServices": null,
+        "gifting": null,
+        "shippingTo": {
+          "contact": {
+            "name": {
+              "firstName": "Walmart Fort Wayne Store #1804",
+              "lastName": "Walmart Fort Wayne Store #1804"
+            },
+            "email": "steph.wigge@gmail.com"
+          },
+          "storeId": "1804",
+          "address": {
+            "line1": "1710 Apple Glen Blvd",
+            "apoFpo": false,
+            "poBox": false,
+            "city": "Fort Wayne",
+            "state": "IN",
+            "country": "USA",
+            "zip": "46804",
+            "addressType": "OFFICE"
+          }
+        },
+        "chargeDetails": [
+          {
+            "chargeCategory": "PRODUCT",
+            "chargeName": "ItemPrice",
+            "chargePerUnit": {
+              "currencyAmount": 0.53,
+              "currencyUnit": "USD"
+            },
+            "chargePerLine": {
+              "currencyAmount": 0.53,
+              "currencyUnit": "USD"
+            },
+            "isDiscount": false,
+            "isBillable": true
+          },
+          {
+            "chargeCategory": "SHIPPING",
+            "chargeName": "Shipping",
+            "chargePerUnit": {
+              "currencyAmount": 0.18,
+              "currencyUnit": "USD"
+            },
+            "chargePerLine": {
+              "currencyAmount": 0.18,
+              "currencyUnit": "USD"
+            },
+            "isDiscount": false,
+            "isBillable": true
+          }
+        ],
+        "isSubstitutable": true,
+        "isPerishable": false,
+        "weight": null,
+        "instructions": null,
+        "lineAttributes": [
+          {
+            "attributeName": "costOfGoods",
+            "values": [
+              "0"
+            ],
+            "type": "STRING"
+          },
+          {
+            "attributeName": "isAlcohol",
+            "values": [
+              "false"
+            ],
+            "type": "BOOLEAN"
+          }
+        ],
+        "skipInventoryCheck": false,
+        "isSnapEligible": false,
+        "isShipAlone": false,
+        "isShipAsIs": null,
+        "isHazmat": false,
+        "isAirShippable": true,
+        "bundleType": null,
+        "wfsEnabled": false,
+        "storeId": "1804",
+        "fulfilledItemBoList": [
+          {
+            "quantity": {
+              "unitOfMeasure": "EA",
+              "measurementValue": 1.0
+            },
+            "weight": null,
+            "itemDetails": {
+              "gtin": "07804628070543"
+            },
+            "pickedItemDetails": {
+              "gtin": "07804628070543"
+            },
+            "purchaseOrderNo": "9863034680615",
+            "pickType": "ORDERED",
+            "subsType": null,
+            "unitPrice": {
+              "currencyAmount": 0.53,
+              "currencyUnit": "USD"
+            },
+            "pickDetails": null,
+            "unitOfMeasurement": "EA",
+            "priceTypeCode": "1050",
+            "offerId": "8847BAA9878C41B9ACDCAC4C4CA91C52"
+          }
+        ],
+        "bundleId": null,
+        "streetDate": null,
+        "carePlan": null,
+        "nodeType": "STORE",
+        "accessType": "PICKUP_CURBSIDE",
+        "channelType": null,
+        "accessMode": "DRIVE_IN",
+        "pickupByDate": "2021-10-30T00:00:00.000+0000",
+        "fulfillmentPrerequisites": {
+          "preRequisiteList": [
+            "SCHEDULED_FULFILLMENT_REQUIRED"
+          ]
+        },
+        "alternateInboundPathEligibilities": null,
+        "foLineOperationInsight": null,
+        "lineType": "STORE",
+        "isUnscheduledPickup": false,
+        "preferredQuantity": null,
+        "destSpecification": null,
+        "isFillEligible": null,
+        "flags": null,
+        "groupType": null,
+        "groupSubType": null,
+        "bundleQuantity": null,
+        "bundleComponentQty": null,
+        "isUnscheduled": false,
+        "giftCardFaceValue": null,
+        "recommendedBoxes": null,
+        "snapEligible": false,
+        "airShippable": true,
+        "hazmat": false,
+        "perishable": false,
+        "preOrder": false,
+        "shipAlone": false,
+        "substitutable": true,
+        "signOnDelivery": false,
+        "shipAsIs": null
+      },
+      "quantityStatuses": [
+        {
+          "qtyId": "c1f69dc2-28e8-4a2f-b51b-1ce12f0e0701",
+          "status": "CANCELLED",
+          "statusChangeDate": "2021-10-31T21:25:32.086+0000",
+          "createdDate": "2021-10-31T21:25:32.086+0000",
+          "quantityDetails": {
+            "sourcingDetails": {
+              "shipNode": "999901804",
+              "viaLocationId": null,
+              "prevShipNode": null,
+              "carrierMethodId": null,
+              "prevCarrierMethodId": null,
+              "xmlCarrierMethodCode": null,
+              "carrierType": null,
+              "quantity": null,
+              "opd": "2021-10-29T00:00:00.000+0000",
+              "pdd": "2021-10-29T00:00:00.000+0000",
+              "esd": "2021-10-29T00:00:00.000+0000",
+              "valueAddedServices": null,
+              "wpmNo": null,
+              "rdcNo": null,
+              "intermediateHubId": null,
+              "orderCutOff": null,
+              "routeDetails": null,
+              "sourcingErrorBo": null,
+              "status": null,
+              "legacyCode": "LC",
+              "isBackOrder": null,
+              "cancelBODemand": null,
+              "gtin": null,
+              "shipNodeItemId": null,
+              "nodeType": null,
+              "scac": null,
+              "accessMode": null,
+              "accessType": null,
+              "tnt": null,
+              "slaTier": null,
+              "shipMethod": null,
+              "shipNodeOptimizable": null,
+              "handlingCost": null,
+              "fcapPoolId": null
+            },
+            "qty": {
+              "unitOfMeasure": "EA",
+              "measurementValue": 1
+            },
+            "valueAddedServices": null,
+            "storeId": "1804",
+            "fulfilledOfferId": null,
+            "shipNodeItemId": null,
+            "unitCost": null,
+            "sellerLineId": "2",
+            "intentToCancel": true,
+            "boxInstanceId": null,
+            "boxes": null,
+            "boxReferenceId": null,
+            "newFulfillmentType": null,
+            "newShippingMethod": null,
+            "isSellerItem": false,
+            "prevPurchaseOrderNo": null,
+            "purchaseOrderNo": "9863034680615",
+            "sourcingDates": null,
+            "isReshop": false,
+            "reasonCode": "1020",
+            "reasonDescription": "Expired",
+            "subReasonCode": null,
+            "subReasonDescription": null,
+            "reservationDetails": {
+              "messageId": null,
+              "responseCode": null,
+              "responseMessage": null,
+              "reservationStatus": "CS"
+            },
+            "requestId": "91FC562C-E59A-4651-B421-5580DC742CCD",
+            "isSubstitutedFrom": null,
+            "pickType": null,
+            "extrinsticsList": null,
+            "fulfillmentHoldDateTime": null,
+            "fulfillerLineId": "2",
+            "transactionId": "d89017aa-3b4b-476c-b78f-d99f29c48c19",
+            "distributorDetails": {
+              "distributorId": "999901804",
+              "storeId": "1804",
+              "distributorType": "STORE"
+            },
+            "requestType": null,
+            "shipTogetherId": null,
+            "serialNo": null,
+            "activationDetails": null,
+            "activationDetailsVersion": "V2",
+            "activationDetailsBoList": null,
+            "orderBatchingId": null,
+            "releaseCutOffTime": null,
+            "releaseCutOffVersion": null,
+            "anchorQtyShipmentConsidered": false,
+            "nilPickReshop": null,
+            "parentNilPickLineId": null,
+            "itemEnriched": false,
+            "carePlanDetails": null
+          },
+          "rules": null,
+          "eventAttributes": null,
+          "shipmentNo": null,
+          "fulfillmentLegId": null
+        }
+      ],
+      "fulfilledPercentage": null,
+      "attributes": null,
+      "eventAttributes": null,
+      "externalPartnerId": null,
+      "lineType": "PICKUP"
+    },
+    {
+      "createdDate": "2021-10-28T19:24:12.373Z",
+      "modifiedDate": "2021-10-31T21:25:32.219Z",
+      "frLineId": "3",
+      "status": "CREATED",
+      "statusChangeDate": "2021-10-28T19:24:12.349+0000",
+      "sellerLineId": "3",
+      "verticalId": null,
+      "isConfirmed": true,
+      "bocd": null,
+      "itemDetails": {
+        "itemId": "13893738",
+        "sellerId": "F55CDC31AB754BB68FE0B39041159D63",
+        "legacySellerId": "0",
+        "upc": "681131329460",
+        "description": "Marketside Fresh Spinach, 10 oz",
+        "gtin": "00681131329460",
+        "offerId": "D8EF799566F24FDA9864B01287C46F4F",
+        "wupc": "0068113132946",
+        "sku": "00681131329460",
+        "win": "551078969",
+        "imageUrl": "https://i5.walmartimages.com/asr/62efef42-e5dc-4b42-8bc0-ea95ed9403ab_2.0ea9c53c1c78078f37025b698ad2acce.jpeg",
+        "sellerType": "INTERNAL"
+      },
+      "frLineDetails": {
+        "isSignOnDelivery": false,
+        "isPreOrder": false,
+        "streetDateType": null,
+        "currentStreetDate": "2021-10-28T19:26:14.074+0000",
+        "previousStreetDate": null,
+        "qty": {
+          "unitOfMeasure": "EA",
+          "measurementValue": 1
+        },
+        "fulfillmentType": "PICKUP",
+        "fulfillmentSubType": null,
+        "shipMethod": null,
+        "shippingSlaTier": "SAME_DAY",
+        "lineDates": [
+          {
+            "dateType": "DELIVERY",
+            "minDate": "2021-10-29T00:00:00.000+0000",
+            "maxDate": "2021-10-29T01:00:00.000+0000"
+          },
+          {
+            "dateType": "SHIPPING",
+            "minDate": "2021-10-29T00:00:00.000+0000",
+            "maxDate": "2021-10-29T01:00:00.000+0000"
+          }
+        ],
+        "forcedShipNode": null,
+        "forcedCarrier": null,
+        "addOnServices": null,
+        "gifting": null,
+        "shippingTo": {
+          "contact": {
+            "name": {
+              "firstName": "Walmart Fort Wayne Store #1804",
+              "lastName": "Walmart Fort Wayne Store #1804"
+            },
+            "email": "steph.wigge@gmail.com"
+          },
+          "storeId": "1804",
+          "address": {
+            "line1": "1710 Apple Glen Blvd",
+            "apoFpo": false,
+            "poBox": false,
+            "city": "Fort Wayne",
+            "state": "IN",
+            "country": "USA",
+            "zip": "46804",
+            "addressType": "OFFICE"
+          }
+        },
+        "chargeDetails": [
+          {
+            "chargeCategory": "PRODUCT",
+            "chargeName": "ItemPrice",
+            "chargePerUnit": {
+              "currencyAmount": 1.98,
+              "currencyUnit": "USD"
+            },
+            "chargePerLine": {
+              "currencyAmount": 1.98,
+              "currencyUnit": "USD"
+            },
+            "isDiscount": false,
+            "isBillable": true
+          },
+          {
+            "chargeCategory": "SHIPPING",
+            "chargeName": "Shipping",
+            "chargePerUnit": {
+              "currencyAmount": 0.66,
+              "currencyUnit": "USD"
+            },
+            "chargePerLine": {
+              "currencyAmount": 0.66,
+              "currencyUnit": "USD"
+            },
+            "isDiscount": false,
+            "isBillable": true
+          }
+        ],
+        "isSubstitutable": true,
+        "isPerishable": false,
+        "weight": null,
+        "instructions": null,
+        "lineAttributes": [
+          {
+            "attributeName": "costOfGoods",
+            "values": [
+              "0"
+            ],
+            "type": "STRING"
+          },
+          {
+            "attributeName": "isAlcohol",
+            "values": [
+              "false"
+            ],
+            "type": "BOOLEAN"
+          }
+        ],
+        "skipInventoryCheck": false,
+        "isSnapEligible": false,
+        "isShipAlone": false,
+        "isShipAsIs": false,
+        "isHazmat": false,
+        "isAirShippable": true,
+        "bundleType": null,
+        "wfsEnabled": false,
+        "storeId": "1804",
+        "fulfilledItemBoList": [
+          {
+            "quantity": {
+              "unitOfMeasure": "EA",
+              "measurementValue": 1.0
+            },
+            "weight": null,
+            "itemDetails": {
+              "gtin": "00681131329460"
+            },
+            "pickedItemDetails": {
+              "gtin": "00681131329460"
+            },
+            "purchaseOrderNo": "9863034680615",
+            "pickType": "ORDERED",
+            "subsType": null,
+            "unitPrice": {
+              "currencyAmount": 1.98,
+              "currencyUnit": "USD"
+            },
+            "pickDetails": null,
+            "unitOfMeasurement": "EA",
+            "priceTypeCode": "1050",
+            "offerId": "D8EF799566F24FDA9864B01287C46F4F"
+          }
+        ],
+        "bundleId": null,
+        "streetDate": null,
+        "carePlan": null,
+        "nodeType": "STORE",
+        "accessType": "PICKUP_CURBSIDE",
+        "channelType": null,
+        "accessMode": "DRIVE_IN",
+        "pickupByDate": "2021-10-30T00:00:00.000+0000",
+        "fulfillmentPrerequisites": {
+          "preRequisiteList": [
+            "SCHEDULED_FULFILLMENT_REQUIRED"
+          ]
+        },
+        "alternateInboundPathEligibilities": null,
+        "foLineOperationInsight": null,
+        "lineType": "STORE",
+        "isUnscheduledPickup": false,
+        "preferredQuantity": null,
+        "destSpecification": null,
+        "isFillEligible": null,
+        "flags": null,
+        "groupType": null,
+        "groupSubType": null,
+        "bundleQuantity": null,
+        "bundleComponentQty": null,
+        "isUnscheduled": false,
+        "giftCardFaceValue": null,
+        "recommendedBoxes": null,
+        "snapEligible": false,
+        "airShippable": true,
+        "hazmat": false,
+        "perishable": false,
+        "preOrder": false,
+        "shipAlone": false,
+        "substitutable": true,
+        "signOnDelivery": false,
+        "shipAsIs": false
+      },
+      "quantityStatuses": [
+        {
+          "qtyId": "27b34b50-485e-4e7a-bb1b-6ed948a4e5b1",
+          "status": "CANCELLED",
+          "statusChangeDate": "2021-10-31T21:25:32.086+0000",
+          "createdDate": "2021-10-31T21:25:32.086+0000",
+          "quantityDetails": {
+            "sourcingDetails": {
+              "shipNode": "999901804",
+              "viaLocationId": null,
+              "prevShipNode": null,
+              "carrierMethodId": null,
+              "prevCarrierMethodId": null,
+              "xmlCarrierMethodCode": null,
+              "carrierType": null,
+              "quantity": null,
+              "opd": "2021-10-29T00:00:00.000+0000",
+              "pdd": "2021-10-29T00:00:00.000+0000",
+              "esd": "2021-10-29T00:00:00.000+0000",
+              "valueAddedServices": null,
+              "wpmNo": null,
+              "rdcNo": null,
+              "intermediateHubId": null,
+              "orderCutOff": null,
+              "routeDetails": null,
+              "sourcingErrorBo": null,
+              "status": null,
+              "legacyCode": "LC",
+              "isBackOrder": null,
+              "cancelBODemand": null,
+              "gtin": null,
+              "shipNodeItemId": null,
+              "nodeType": null,
+              "scac": null,
+              "accessMode": null,
+              "accessType": null,
+              "tnt": null,
+              "slaTier": null,
+              "shipMethod": null,
+              "shipNodeOptimizable": null,
+              "handlingCost": null,
+              "fcapPoolId": null
+            },
+            "qty": {
+              "unitOfMeasure": "EA",
+              "measurementValue": 1
+            },
+            "valueAddedServices": null,
+            "storeId": "1804",
+            "fulfilledOfferId": null,
+            "shipNodeItemId": null,
+            "unitCost": null,
+            "sellerLineId": "3",
+            "intentToCancel": true,
+            "boxInstanceId": null,
+            "boxes": null,
+            "boxReferenceId": null,
+            "newFulfillmentType": null,
+            "newShippingMethod": null,
+            "isSellerItem": false,
+            "prevPurchaseOrderNo": null,
+            "purchaseOrderNo": "9863034680615",
+            "sourcingDates": null,
+            "isReshop": false,
+            "reasonCode": "1020",
+            "reasonDescription": "Expired",
+            "subReasonCode": null,
+            "subReasonDescription": null,
+            "reservationDetails": {
+              "messageId": null,
+              "responseCode": null,
+              "responseMessage": null,
+              "reservationStatus": "CS"
+            },
+            "requestId": "91FC562C-E59A-4651-B421-5580DC742CCD",
+            "isSubstitutedFrom": null,
+            "pickType": null,
+            "extrinsticsList": null,
+            "fulfillmentHoldDateTime": null,
+            "fulfillerLineId": "3",
+            "transactionId": "d89017aa-3b4b-476c-b78f-d99f29c48c19",
+            "distributorDetails": {
+              "distributorId": "999901804",
+              "storeId": "1804",
+              "distributorType": "STORE"
+            },
+            "requestType": null,
+            "shipTogetherId": null,
+            "serialNo": null,
+            "activationDetails": null,
+            "activationDetailsVersion": "V2",
+            "activationDetailsBoList": null,
+            "orderBatchingId": null,
+            "releaseCutOffTime": null,
+            "releaseCutOffVersion": null,
+            "anchorQtyShipmentConsidered": false,
+            "nilPickReshop": null,
+            "parentNilPickLineId": null,
+            "itemEnriched": false,
+            "carePlanDetails": null
+          },
+          "rules": null,
+          "eventAttributes": null,
+          "shipmentNo": null,
+          "fulfillmentLegId": null
+        }
+      ],
+      "fulfilledPercentage": null,
+      "attributes": null,
+      "eventAttributes": null,
+      "externalPartnerId": null,
+      "lineType": "PICKUP"
+    },
+    {
+      "createdDate": "2021-10-28T19:24:12.373Z",
+      "modifiedDate": "2021-10-31T21:25:32.219Z",
+      "frLineId": "4",
+      "status": "CREATED",
+      "statusChangeDate": "2021-10-28T19:24:12.349+0000",
+      "sellerLineId": "4",
+      "verticalId": null,
+      "isConfirmed": true,
+      "bocd": null,
+      "itemDetails": {
+        "itemId": "15716517",
+        "sellerId": "F55CDC31AB754BB68FE0B39041159D63",
+        "legacySellerId": "0",
+        "upc": "026825009592",
+        "description": "Gia Russa Gnocchi with Potato, 16 oz",
+        "gtin": "00026825009592",
+        "offerId": "F36E4DF2705748888F2039BAAA4AB048",
+        "wupc": "0002682500959",
+        "sku": "15716517",
+        "win": "9230172",
+        "imageUrl": "https://i5.walmartimages.com/asr/4fa56388-b1f0-4b1c-8348-b71f16ee0349_1.2662dccdf356e5806afac94d4e1b0a1a.jpeg",
+        "sellerType": "INTERNAL"
+      },
+      "frLineDetails": {
+        "isSignOnDelivery": false,
+        "isPreOrder": false,
+        "streetDateType": null,
+        "currentStreetDate": "2021-10-28T19:26:14.074+0000",
+        "previousStreetDate": null,
+        "qty": {
+          "unitOfMeasure": "EA",
+          "measurementValue": 1
+        },
+        "fulfillmentType": "PICKUP",
+        "fulfillmentSubType": null,
+        "shipMethod": null,
+        "shippingSlaTier": "SAME_DAY",
+        "lineDates": [
+          {
+            "dateType": "DELIVERY",
+            "minDate": "2021-10-29T00:00:00.000+0000",
+            "maxDate": "2021-10-29T01:00:00.000+0000"
+          },
+          {
+            "dateType": "SHIPPING",
+            "minDate": "2021-10-29T00:00:00.000+0000",
+            "maxDate": "2021-10-29T01:00:00.000+0000"
+          }
+        ],
+        "forcedShipNode": null,
+        "forcedCarrier": null,
+        "addOnServices": null,
+        "gifting": null,
+        "shippingTo": {
+          "contact": {
+            "name": {
+              "firstName": "Walmart Fort Wayne Store #1804",
+              "lastName": "Walmart Fort Wayne Store #1804"
+            },
+            "email": "steph.wigge@gmail.com"
+          },
+          "storeId": "1804",
+          "address": {
+            "line1": "1710 Apple Glen Blvd",
+            "apoFpo": false,
+            "poBox": false,
+            "city": "Fort Wayne",
+            "state": "IN",
+            "country": "USA",
+            "zip": "46804",
+            "addressType": "OFFICE"
+          }
+        },
+        "chargeDetails": [
+          {
+            "chargeCategory": "PRODUCT",
+            "chargeName": "ItemPrice",
+            "chargePerUnit": {
+              "currencyAmount": 2.5,
+              "currencyUnit": "USD"
+            },
+            "chargePerLine": {
+              "currencyAmount": 2.5,
+              "currencyUnit": "USD"
+            },
+            "isDiscount": false,
+            "isBillable": true
+          },
+          {
+            "chargeCategory": "SHIPPING",
+            "chargeName": "Shipping",
+            "chargePerUnit": {
+              "currencyAmount": 0.83,
+              "currencyUnit": "USD"
+            },
+            "chargePerLine": {
+              "currencyAmount": 0.83,
+              "currencyUnit": "USD"
+            },
+            "isDiscount": false,
+            "isBillable": true
+          }
+        ],
+        "isSubstitutable": true,
+        "isPerishable": false,
+        "weight": null,
+        "instructions": null,
+        "lineAttributes": [
+          {
+            "attributeName": "costOfGoods",
+            "values": [
+              "0"
+            ],
+            "type": "STRING"
+          },
+          {
+            "attributeName": "isAlcohol",
+            "values": [
+              "false"
+            ],
+            "type": "BOOLEAN"
+          }
+        ],
+        "skipInventoryCheck": false,
+        "isSnapEligible": false,
+        "isShipAlone": false,
+        "isShipAsIs": false,
+        "isHazmat": false,
+        "isAirShippable": true,
+        "bundleType": null,
+        "wfsEnabled": false,
+        "storeId": "1804",
+        "fulfilledItemBoList": [
+          {
+            "quantity": {
+              "unitOfMeasure": "EA",
+              "measurementValue": 1.0
+            },
+            "weight": null,
+            "itemDetails": {
+              "gtin": "00026825009592",
+              "pebGtin": "00026825009592"
+            },
+            "pickedItemDetails": {
+              "gtin": "00026825009592",
+              "pebGtin": "00026825009592"
+            },
+            "purchaseOrderNo": "9863034680615",
+            "pickType": "ORDERED",
+            "subsType": null,
+            "unitPrice": {
+              "currencyAmount": 2.5,
+              "currencyUnit": "USD"
+            },
+            "pickDetails": null,
+            "unitOfMeasurement": "EA",
+            "priceTypeCode": "1010",
+            "offerId": "F36E4DF2705748888F2039BAAA4AB048"
+          }
+        ],
+        "bundleId": null,
+        "streetDate": null,
+        "carePlan": null,
+        "nodeType": "STORE",
+        "accessType": "PICKUP_CURBSIDE",
+        "channelType": null,
+        "accessMode": "DRIVE_IN",
+        "pickupByDate": "2021-10-30T00:00:00.000+0000",
+        "fulfillmentPrerequisites": {
+          "preRequisiteList": [
+            "SCHEDULED_FULFILLMENT_REQUIRED",
+            "SCHEDULED_FULFILLMENT_REQUIRED"
+          ]
+        },
+        "alternateInboundPathEligibilities": null,
+        "foLineOperationInsight": null,
+        "lineType": "STORE",
+        "isUnscheduledPickup": false,
+        "preferredQuantity": null,
+        "destSpecification": null,
+        "isFillEligible": null,
+        "flags": null,
+        "groupType": null,
+        "groupSubType": null,
+        "bundleQuantity": null,
+        "bundleComponentQty": null,
+        "isUnscheduled": false,
+        "giftCardFaceValue": null,
+        "recommendedBoxes": null,
+        "snapEligible": false,
+        "airShippable": true,
+        "hazmat": false,
+        "perishable": false,
+        "preOrder": false,
+        "shipAlone": false,
+        "substitutable": true,
+        "signOnDelivery": false,
+        "shipAsIs": false
+      },
+      "quantityStatuses": [
+        {
+          "qtyId": "df1c1744-0152-46de-a234-847239df0b63",
+          "status": "CANCELLED",
+          "statusChangeDate": "2021-10-31T21:25:32.086+0000",
+          "createdDate": "2021-10-31T21:25:32.086+0000",
+          "quantityDetails": {
+            "sourcingDetails": {
+              "shipNode": "999901804",
+              "viaLocationId": null,
+              "prevShipNode": null,
+              "carrierMethodId": null,
+              "prevCarrierMethodId": null,
+              "xmlCarrierMethodCode": null,
+              "carrierType": null,
+              "quantity": null,
+              "opd": "2021-10-29T00:00:00.000+0000",
+              "pdd": "2021-10-29T00:00:00.000+0000",
+              "esd": "2021-10-29T00:00:00.000+0000",
+              "valueAddedServices": null,
+              "wpmNo": null,
+              "rdcNo": null,
+              "intermediateHubId": null,
+              "orderCutOff": null,
+              "routeDetails": null,
+              "sourcingErrorBo": null,
+              "status": null,
+              "legacyCode": "LC",
+              "isBackOrder": null,
+              "cancelBODemand": null,
+              "gtin": null,
+              "shipNodeItemId": null,
+              "nodeType": null,
+              "scac": null,
+              "accessMode": null,
+              "accessType": null,
+              "tnt": null,
+              "slaTier": null,
+              "shipMethod": null,
+              "shipNodeOptimizable": null,
+              "handlingCost": null,
+              "fcapPoolId": null
+            },
+            "qty": {
+              "unitOfMeasure": "EA",
+              "measurementValue": 1
+            },
+            "valueAddedServices": null,
+            "storeId": "1804",
+            "fulfilledOfferId": null,
+            "shipNodeItemId": null,
+            "unitCost": null,
+            "sellerLineId": "4",
+            "intentToCancel": true,
+            "boxInstanceId": null,
+            "boxes": null,
+            "boxReferenceId": null,
+            "newFulfillmentType": null,
+            "newShippingMethod": null,
+            "isSellerItem": false,
+            "prevPurchaseOrderNo": null,
+            "purchaseOrderNo": "9863034680615",
+            "sourcingDates": null,
+            "isReshop": false,
+            "reasonCode": "1020",
+            "reasonDescription": "Expired",
+            "subReasonCode": null,
+            "subReasonDescription": null,
+            "reservationDetails": {
+              "messageId": null,
+              "responseCode": null,
+              "responseMessage": null,
+              "reservationStatus": "CS"
+            },
+            "requestId": "91FC562C-E59A-4651-B421-5580DC742CCD",
+            "isSubstitutedFrom": null,
+            "pickType": null,
+            "extrinsticsList": null,
+            "fulfillmentHoldDateTime": null,
+            "fulfillerLineId": "4",
+            "transactionId": "d89017aa-3b4b-476c-b78f-d99f29c48c19",
+            "distributorDetails": {
+              "distributorId": "999901804",
+              "storeId": "1804",
+              "distributorType": "STORE"
+            },
+            "requestType": null,
+            "shipTogetherId": null,
+            "serialNo": null,
+            "activationDetails": null,
+            "activationDetailsVersion": "V2",
+            "activationDetailsBoList": null,
+            "orderBatchingId": null,
+            "releaseCutOffTime": null,
+            "releaseCutOffVersion": null,
+            "anchorQtyShipmentConsidered": false,
+            "nilPickReshop": null,
+            "parentNilPickLineId": null,
+            "itemEnriched": false,
+            "carePlanDetails": null
+          },
+          "rules": null,
+          "eventAttributes": null,
+          "shipmentNo": null,
+          "fulfillmentLegId": null
+        }
+      ],
+      "fulfilledPercentage": null,
+      "attributes": null,
+      "eventAttributes": null,
+      "externalPartnerId": null,
+      "lineType": "PICKUP"
+    },
+    {
+      "createdDate": "2021-10-28T19:24:12.373Z",
+      "modifiedDate": "2021-10-31T21:25:32.219Z",
+      "frLineId": "5",
+      "status": "CREATED",
+      "statusChangeDate": "2021-10-28T19:24:12.349+0000",
+      "sellerLineId": "5",
+      "verticalId": null,
+      "isConfirmed": true,
+      "bocd": null,
+      "itemDetails": {
+        "itemId": "10450337",
+        "sellerId": "F55CDC31AB754BB68FE0B39041159D63",
+        "legacySellerId": "0",
+        "upc": "605388187154",
+        "description": "Great Value Half & Half, 16 fl oz",
+        "gtin": "00605388187154",
+        "offerId": "CD34DF27DCBF4F5FB3B2E64CC340087F",
+        "wupc": "0060538818715",
+        "sku": "00605388187154",
+        "win": "9066244",
+        "imageUrl": "https://i5.walmartimages.com/asr/1a99993d-6518-4e38-8624-dde5451d8ebd_1.a465da5d3449f5ddeaa0a0541ca13413.jpeg",
+        "sellerType": "INTERNAL"
+      },
+      "frLineDetails": {
+        "isSignOnDelivery": false,
+        "isPreOrder": false,
+        "streetDateType": null,
+        "currentStreetDate": "2021-10-28T19:26:14.075+0000",
+        "previousStreetDate": null,
+        "qty": {
+          "unitOfMeasure": "EA",
+          "measurementValue": 1
+        },
+        "fulfillmentType": "PICKUP",
+        "fulfillmentSubType": null,
+        "shipMethod": null,
+        "shippingSlaTier": "SAME_DAY",
+        "lineDates": [
+          {
+            "dateType": "DELIVERY",
+            "minDate": "2021-10-29T00:00:00.000+0000",
+            "maxDate": "2021-10-29T01:00:00.000+0000"
+          },
+          {
+            "dateType": "SHIPPING",
+            "minDate": "2021-10-29T00:00:00.000+0000",
+            "maxDate": "2021-10-29T01:00:00.000+0000"
+          }
+        ],
+        "forcedShipNode": null,
+        "forcedCarrier": null,
+        "addOnServices": null,
+        "gifting": null,
+        "shippingTo": {
+          "contact": {
+            "name": {
+              "firstName": "Walmart Fort Wayne Store #1804",
+              "lastName": "Walmart Fort Wayne Store #1804"
+            },
+            "email": "steph.wigge@gmail.com"
+          },
+          "storeId": "1804",
+          "address": {
+            "line1": "1710 Apple Glen Blvd",
+            "apoFpo": false,
+            "poBox": false,
+            "city": "Fort Wayne",
+            "state": "IN",
+            "country": "USA",
+            "zip": "46804",
+            "addressType": "OFFICE"
+          }
+        },
+        "chargeDetails": [
+          {
+            "chargeCategory": "PRODUCT",
+            "chargeName": "ItemPrice",
+            "chargePerUnit": {
+              "currencyAmount": 1.34,
+              "currencyUnit": "USD"
+            },
+            "chargePerLine": {
+              "currencyAmount": 1.34,
+              "currencyUnit": "USD"
+            },
+            "isDiscount": false,
+            "isBillable": true
+          },
+          {
+            "chargeCategory": "SHIPPING",
+            "chargeName": "Shipping",
+            "chargePerUnit": {
+              "currencyAmount": 0.44,
+              "currencyUnit": "USD"
+            },
+            "chargePerLine": {
+              "currencyAmount": 0.44,
+              "currencyUnit": "USD"
+            },
+            "isDiscount": false,
+            "isBillable": true
+          }
+        ],
+        "isSubstitutable": true,
+        "isPerishable": true,
+        "weight": null,
+        "instructions": null,
+        "lineAttributes": [
+          {
+            "attributeName": "costOfGoods",
+            "values": [
+              "0"
+            ],
+            "type": "STRING"
+          },
+          {
+            "attributeName": "isAlcohol",
+            "values": [
+              "false"
+            ],
+            "type": "BOOLEAN"
+          }
+        ],
+        "skipInventoryCheck": false,
+        "isSnapEligible": false,
+        "isShipAlone": false,
+        "isShipAsIs": false,
+        "isHazmat": false,
+        "isAirShippable": true,
+        "bundleType": null,
+        "wfsEnabled": false,
+        "storeId": "1804",
+        "fulfilledItemBoList": [
+          {
+            "quantity": {
+              "unitOfMeasure": "EA",
+              "measurementValue": 1.0
+            },
+            "weight": null,
+            "itemDetails": {
+              "gtin": "00605388187154"
+            },
+            "pickedItemDetails": {
+              "gtin": "00605388187154"
+            },
+            "purchaseOrderNo": "9863034680615",
+            "pickType": "ORDERED",
+            "subsType": null,
+            "unitPrice": {
+              "currencyAmount": 1.34,
+              "currencyUnit": "USD"
+            },
+            "pickDetails": null,
+            "unitOfMeasurement": "EA",
+            "priceTypeCode": "1050",
+            "offerId": "CD34DF27DCBF4F5FB3B2E64CC340087F"
+          }
+        ],
+        "bundleId": null,
+        "streetDate": null,
+        "carePlan": null,
+        "nodeType": "STORE",
+        "accessType": "PICKUP_CURBSIDE",
+        "channelType": null,
+        "accessMode": "DRIVE_IN",
+        "pickupByDate": "2021-10-30T00:00:00.000+0000",
+        "fulfillmentPrerequisites": {
+          "preRequisiteList": [
+            "SCHEDULED_FULFILLMENT_REQUIRED"
+          ]
+        },
+        "alternateInboundPathEligibilities": null,
+        "foLineOperationInsight": null,
+        "lineType": "STORE",
+        "isUnscheduledPickup": false,
+        "preferredQuantity": null,
+        "destSpecification": null,
+        "isFillEligible": null,
+        "flags": null,
+        "groupType": null,
+        "groupSubType": null,
+        "bundleQuantity": null,
+        "bundleComponentQty": null,
+        "isUnscheduled": false,
+        "giftCardFaceValue": null,
+        "recommendedBoxes": null,
+        "snapEligible": false,
+        "airShippable": true,
+        "hazmat": false,
+        "perishable": true,
+        "preOrder": false,
+        "shipAlone": false,
+        "substitutable": true,
+        "signOnDelivery": false,
+        "shipAsIs": false
+      },
+      "quantityStatuses": [
+        {
+          "qtyId": "d828c092-ed14-4e7d-9c17-f6e2273ff428",
+          "status": "CANCELLED",
+          "statusChangeDate": "2021-10-31T21:25:32.086+0000",
+          "createdDate": "2021-10-31T21:25:32.086+0000",
+          "quantityDetails": {
+            "sourcingDetails": {
+              "shipNode": "999901804",
+              "viaLocationId": null,
+              "prevShipNode": null,
+              "carrierMethodId": null,
+              "prevCarrierMethodId": null,
+              "xmlCarrierMethodCode": null,
+              "carrierType": null,
+              "quantity": null,
+              "opd": "2021-10-29T00:00:00.000+0000",
+              "pdd": "2021-10-29T00:00:00.000+0000",
+              "esd": "2021-10-29T00:00:00.000+0000",
+              "valueAddedServices": null,
+              "wpmNo": null,
+              "rdcNo": null,
+              "intermediateHubId": null,
+              "orderCutOff": null,
+              "routeDetails": null,
+              "sourcingErrorBo": null,
+              "status": null,
+              "legacyCode": "LC",
+              "isBackOrder": null,
+              "cancelBODemand": null,
+              "gtin": null,
+              "shipNodeItemId": null,
+              "nodeType": null,
+              "scac": null,
+              "accessMode": null,
+              "accessType": null,
+              "tnt": null,
+              "slaTier": null,
+              "shipMethod": null,
+              "shipNodeOptimizable": null,
+              "handlingCost": null,
+              "fcapPoolId": null
+            },
+            "qty": {
+              "unitOfMeasure": "EA",
+              "measurementValue": 1
+            },
+            "valueAddedServices": null,
+            "storeId": "1804",
+            "fulfilledOfferId": null,
+            "shipNodeItemId": null,
+            "unitCost": null,
+            "sellerLineId": "5",
+            "intentToCancel": true,
+            "boxInstanceId": null,
+            "boxes": null,
+            "boxReferenceId": null,
+            "newFulfillmentType": null,
+            "newShippingMethod": null,
+            "isSellerItem": false,
+            "prevPurchaseOrderNo": null,
+            "purchaseOrderNo": "9863034680615",
+            "sourcingDates": null,
+            "isReshop": false,
+            "reasonCode": "1020",
+            "reasonDescription": "Expired",
+            "subReasonCode": null,
+            "subReasonDescription": null,
+            "reservationDetails": {
+              "messageId": null,
+              "responseCode": null,
+              "responseMessage": null,
+              "reservationStatus": "CS"
+            },
+            "requestId": "91FC562C-E59A-4651-B421-5580DC742CCD",
+            "isSubstitutedFrom": null,
+            "pickType": null,
+            "extrinsticsList": null,
+            "fulfillmentHoldDateTime": null,
+            "fulfillerLineId": "5",
+            "transactionId": "d89017aa-3b4b-476c-b78f-d99f29c48c19",
+            "distributorDetails": {
+              "distributorId": "999901804",
+              "storeId": "1804",
+              "distributorType": "STORE"
+            },
+            "requestType": null,
+            "shipTogetherId": null,
+            "serialNo": null,
+            "activationDetails": null,
+            "activationDetailsVersion": "V2",
+            "activationDetailsBoList": null,
+            "orderBatchingId": null,
+            "releaseCutOffTime": null,
+            "releaseCutOffVersion": null,
+            "anchorQtyShipmentConsidered": false,
+            "nilPickReshop": null,
+            "parentNilPickLineId": null,
+            "itemEnriched": false,
+            "carePlanDetails": null
+          },
+          "rules": null,
+          "eventAttributes": null,
+          "shipmentNo": null,
+          "fulfillmentLegId": null
+        }
+      ],
+      "fulfilledPercentage": null,
+      "attributes": null,
+      "eventAttributes": null,
+      "externalPartnerId": null,
+      "lineType": "PICKUP"
+    },
+    {
+      "createdDate": "2021-10-28T19:24:12.374Z",
+      "modifiedDate": "2021-10-31T21:25:32.220Z",
+      "frLineId": "6",
+      "status": "CREATED",
+      "statusChangeDate": "2021-10-28T19:24:12.349+0000",
+      "sellerLineId": "6",
+      "verticalId": null,
+      "isConfirmed": true,
+      "bocd": null,
+      "itemDetails": {
+        "itemId": "10449231",
+        "sellerId": "F55CDC31AB754BB68FE0B39041159D63",
+        "legacySellerId": "0",
+        "upc": "051000132796",
+        "description": "Swanson Natural Goodness Lower Sodium Chicken Broth, 32 Ounce Resealable Carton",
+        "gtin": "00051000132796",
+        "offerId": "BCD2D564477A43B3B3E2451C3BF497A6",
+        "wupc": "0005100013279",
+        "sku": "00051000132796",
+        "win": "553987274",
+        "imageUrl": "https://i5.walmartimages.com/asr/7368acab-5189-4571-be98-6480957de461.6c37a03ffeed199f6b81a57ed1296918.jpeg",
+        "sellerType": "INTERNAL"
+      },
+      "frLineDetails": {
+        "isSignOnDelivery": false,
+        "isPreOrder": false,
+        "streetDateType": null,
+        "currentStreetDate": "2021-10-28T19:26:14.075+0000",
+        "previousStreetDate": null,
+        "qty": {
+          "unitOfMeasure": "EA",
+          "measurementValue": 1
+        },
+        "fulfillmentType": "PICKUP",
+        "fulfillmentSubType": null,
+        "shipMethod": null,
+        "shippingSlaTier": "SAME_DAY",
+        "lineDates": [
+          {
+            "dateType": "DELIVERY",
+            "minDate": "2021-10-29T00:00:00.000+0000",
+            "maxDate": "2021-10-29T01:00:00.000+0000"
+          },
+          {
+            "dateType": "SHIPPING",
+            "minDate": "2021-10-29T00:00:00.000+0000",
+            "maxDate": "2021-10-29T01:00:00.000+0000"
+          }
+        ],
+        "forcedShipNode": null,
+        "forcedCarrier": null,
+        "addOnServices": null,
+        "gifting": null,
+        "shippingTo": {
+          "contact": {
+            "name": {
+              "firstName": "Walmart Fort Wayne Store #1804",
+              "lastName": "Walmart Fort Wayne Store #1804"
+            },
+            "email": "steph.wigge@gmail.com"
+          },
+          "storeId": "1804",
+          "address": {
+            "line1": "1710 Apple Glen Blvd",
+            "apoFpo": false,
+            "poBox": false,
+            "city": "Fort Wayne",
+            "state": "IN",
+            "country": "USA",
+            "zip": "46804",
+            "addressType": "OFFICE"
+          }
+        },
+        "chargeDetails": [
+          {
+            "chargeCategory": "PRODUCT",
+            "chargeName": "ItemPrice",
+            "chargePerUnit": {
+              "currencyAmount": 2.13,
+              "currencyUnit": "USD"
+            },
+            "chargePerLine": {
+              "currencyAmount": 2.13,
+              "currencyUnit": "USD"
+            },
+            "isDiscount": false,
+            "isBillable": true
+          },
+          {
+            "chargeCategory": "SHIPPING",
+            "chargeName": "Shipping",
+            "chargePerUnit": {
+              "currencyAmount": 0.71,
+              "currencyUnit": "USD"
+            },
+            "chargePerLine": {
+              "currencyAmount": 0.71,
+              "currencyUnit": "USD"
+            },
+            "isDiscount": false,
+            "isBillable": true
+          }
+        ],
+        "isSubstitutable": true,
+        "isPerishable": false,
+        "weight": null,
+        "instructions": null,
+        "lineAttributes": [
+          {
+            "attributeName": "costOfGoods",
+            "values": [
+              "0"
+            ],
+            "type": "STRING"
+          },
+          {
+            "attributeName": "isAlcohol",
+            "values": [
+              "false"
+            ],
+            "type": "BOOLEAN"
+          }
+        ],
+        "skipInventoryCheck": false,
+        "isSnapEligible": false,
+        "isShipAlone": false,
+        "isShipAsIs": false,
+        "isHazmat": false,
+        "isAirShippable": true,
+        "bundleType": null,
+        "wfsEnabled": false,
+        "storeId": "1804",
+        "fulfilledItemBoList": [
+          {
+            "quantity": {
+              "unitOfMeasure": "EA",
+              "measurementValue": 1.0
+            },
+            "weight": null,
+            "itemDetails": {
+              "gtin": "00051000132796"
+            },
+            "pickedItemDetails": {
+              "gtin": "00051000132796"
+            },
+            "purchaseOrderNo": "9863034680615",
+            "pickType": "ORDERED",
+            "subsType": null,
+            "unitPrice": {
+              "currencyAmount": 2.13,
+              "currencyUnit": "USD"
+            },
+            "pickDetails": null,
+            "unitOfMeasurement": "EA",
+            "priceTypeCode": "1050",
+            "offerId": "BCD2D564477A43B3B3E2451C3BF497A6"
+          }
+        ],
+        "bundleId": null,
+        "streetDate": null,
+        "carePlan": null,
+        "nodeType": "STORE",
+        "accessType": "PICKUP_CURBSIDE",
+        "channelType": null,
+        "accessMode": "DRIVE_IN",
+        "pickupByDate": "2021-10-30T00:00:00.000+0000",
+        "fulfillmentPrerequisites": {
+          "preRequisiteList": [
+            "SCHEDULED_FULFILLMENT_REQUIRED",
+            "SCHEDULED_FULFILLMENT_REQUIRED"
+          ]
+        },
+        "alternateInboundPathEligibilities": null,
+        "foLineOperationInsight": null,
+        "lineType": "STORE",
+        "isUnscheduledPickup": false,
+        "preferredQuantity": null,
+        "destSpecification": null,
+        "isFillEligible": null,
+        "flags": null,
+        "groupType": null,
+        "groupSubType": null,
+        "bundleQuantity": null,
+        "bundleComponentQty": null,
+        "isUnscheduled": false,
+        "giftCardFaceValue": null,
+        "recommendedBoxes": null,
+        "snapEligible": false,
+        "airShippable": true,
+        "hazmat": false,
+        "perishable": false,
+        "preOrder": false,
+        "shipAlone": false,
+        "substitutable": true,
+        "signOnDelivery": false,
+        "shipAsIs": false
+      },
+      "quantityStatuses": [
+        {
+          "qtyId": "5671369f-21c5-4aaa-8ba1-1c54984d25da",
+          "status": "CANCELLED",
+          "statusChangeDate": "2021-10-31T21:25:32.086+0000",
+          "createdDate": "2021-10-31T21:25:32.086+0000",
+          "quantityDetails": {
+            "sourcingDetails": {
+              "shipNode": "999901804",
+              "viaLocationId": null,
+              "prevShipNode": null,
+              "carrierMethodId": null,
+              "prevCarrierMethodId": null,
+              "xmlCarrierMethodCode": null,
+              "carrierType": null,
+              "quantity": null,
+              "opd": "2021-10-29T00:00:00.000+0000",
+              "pdd": "2021-10-29T00:00:00.000+0000",
+              "esd": "2021-10-29T00:00:00.000+0000",
+              "valueAddedServices": null,
+              "wpmNo": null,
+              "rdcNo": null,
+              "intermediateHubId": null,
+              "orderCutOff": null,
+              "routeDetails": null,
+              "sourcingErrorBo": null,
+              "status": null,
+              "legacyCode": "LC",
+              "isBackOrder": null,
+              "cancelBODemand": null,
+              "gtin": null,
+              "shipNodeItemId": null,
+              "nodeType": null,
+              "scac": null,
+              "accessMode": null,
+              "accessType": null,
+              "tnt": null,
+              "slaTier": null,
+              "shipMethod": null,
+              "shipNodeOptimizable": null,
+              "handlingCost": null,
+              "fcapPoolId": null
+            },
+            "qty": {
+              "unitOfMeasure": "EA",
+              "measurementValue": 1
+            },
+            "valueAddedServices": null,
+            "storeId": "1804",
+            "fulfilledOfferId": null,
+            "shipNodeItemId": null,
+            "unitCost": null,
+            "sellerLineId": "6",
+            "intentToCancel": true,
+            "boxInstanceId": null,
+            "boxes": null,
+            "boxReferenceId": null,
+            "newFulfillmentType": null,
+            "newShippingMethod": null,
+            "isSellerItem": false,
+            "prevPurchaseOrderNo": null,
+            "purchaseOrderNo": "9863034680615",
+            "sourcingDates": null,
+            "isReshop": false,
+            "reasonCode": "1020",
+            "reasonDescription": "Expired",
+            "subReasonCode": null,
+            "subReasonDescription": null,
+            "reservationDetails": {
+              "messageId": null,
+              "responseCode": null,
+              "responseMessage": null,
+              "reservationStatus": "CS"
+            },
+            "requestId": "91FC562C-E59A-4651-B421-5580DC742CCD",
+            "isSubstitutedFrom": null,
+            "pickType": null,
+            "extrinsticsList": null,
+            "fulfillmentHoldDateTime": null,
+            "fulfillerLineId": "6",
+            "transactionId": "d89017aa-3b4b-476c-b78f-d99f29c48c19",
+            "distributorDetails": {
+              "distributorId": "999901804",
+              "storeId": "1804",
+              "distributorType": "STORE"
+            },
+            "requestType": null,
+            "shipTogetherId": null,
+            "serialNo": null,
+            "activationDetails": null,
+            "activationDetailsVersion": "V2",
+            "activationDetailsBoList": null,
+            "orderBatchingId": null,
+            "releaseCutOffTime": null,
+            "releaseCutOffVersion": null,
+            "anchorQtyShipmentConsidered": false,
+            "nilPickReshop": null,
+            "parentNilPickLineId": null,
+            "itemEnriched": false,
+            "carePlanDetails": null
+          },
+          "rules": null,
+          "eventAttributes": null,
+          "shipmentNo": null,
+          "fulfillmentLegId": null
+        }
+      ],
+      "fulfilledPercentage": null,
+      "attributes": null,
+      "eventAttributes": null,
+      "externalPartnerId": null,
+      "lineType": "PICKUP"
+    },
+    {
+      "createdDate": "2021-10-28T19:24:12.374Z",
+      "modifiedDate": "2021-10-31T21:25:32.220Z",
+      "frLineId": "7",
+      "status": "CREATED",
+      "statusChangeDate": "2021-10-28T19:24:12.349+0000",
+      "sellerLineId": "7",
+      "verticalId": null,
+      "isConfirmed": true,
+      "bocd": null,
+      "itemDetails": {
+        "itemId": "106127029",
+        "sellerId": "F55CDC31AB754BB68FE0B39041159D63",
+        "legacySellerId": "0",
+        "upc": "875208001247",
+        "description": "Gourmet Garden Lightly Dried Organic Parsley, 0.35 oz",
+        "gtin": "00875208001247",
+        "offerId": "386A63102D6943B982A3131A951DF328",
+        "wupc": "0087520800124",
+        "sku": "00875208001247",
+        "win": "553576211",
+        "imageUrl": "https://i5.walmartimages.com/asr/d404d4a0-1927-4a2a-9677-558e3e75b737.85d3c8f40aece8e49b552bf725210cea.jpeg",
+        "sellerType": "INTERNAL"
+      },
+      "frLineDetails": {
+        "isSignOnDelivery": false,
+        "isPreOrder": false,
+        "streetDateType": null,
+        "currentStreetDate": "2021-10-28T19:26:14.075+0000",
+        "previousStreetDate": null,
+        "qty": {
+          "unitOfMeasure": "EA",
+          "measurementValue": 1
+        },
+        "fulfillmentType": "PICKUP",
+        "fulfillmentSubType": null,
+        "shipMethod": null,
+        "shippingSlaTier": "SAME_DAY",
+        "lineDates": [
+          {
+            "dateType": "DELIVERY",
+            "minDate": "2021-10-29T00:00:00.000+0000",
+            "maxDate": "2021-10-29T01:00:00.000+0000"
+          },
+          {
+            "dateType": "SHIPPING",
+            "minDate": "2021-10-29T00:00:00.000+0000",
+            "maxDate": "2021-10-29T01:00:00.000+0000"
+          }
+        ],
+        "forcedShipNode": null,
+        "forcedCarrier": null,
+        "addOnServices": null,
+        "gifting": null,
+        "shippingTo": {
+          "contact": {
+            "name": {
+              "firstName": "Walmart Fort Wayne Store #1804",
+              "lastName": "Walmart Fort Wayne Store #1804"
+            },
+            "email": "steph.wigge@gmail.com"
+          },
+          "storeId": "1804",
+          "address": {
+            "line1": "1710 Apple Glen Blvd",
+            "apoFpo": false,
+            "poBox": false,
+            "city": "Fort Wayne",
+            "state": "IN",
+            "country": "USA",
+            "zip": "46804",
+            "addressType": "OFFICE"
+          }
+        },
+        "chargeDetails": [
+          {
+            "chargeCategory": "PRODUCT",
+            "chargeName": "ItemPrice",
+            "chargePerUnit": {
+              "currencyAmount": 3.98,
+              "currencyUnit": "USD"
+            },
+            "chargePerLine": {
+              "currencyAmount": 3.98,
+              "currencyUnit": "USD"
+            },
+            "isDiscount": false,
+            "isBillable": true
+          },
+          {
+            "chargeCategory": "SHIPPING",
+            "chargeName": "Shipping",
+            "chargePerUnit": {
+              "currencyAmount": 1.32,
+              "currencyUnit": "USD"
+            },
+            "chargePerLine": {
+              "currencyAmount": 1.32,
+              "currencyUnit": "USD"
+            },
+            "isDiscount": false,
+            "isBillable": true
+          }
+        ],
+        "isSubstitutable": true,
+        "isPerishable": false,
+        "weight": null,
+        "instructions": null,
+        "lineAttributes": [
+          {
+            "attributeName": "costOfGoods",
+            "values": [
+              "0"
+            ],
+            "type": "STRING"
+          },
+          {
+            "attributeName": "isAlcohol",
+            "values": [
+              "false"
+            ],
+            "type": "BOOLEAN"
+          }
+        ],
+        "skipInventoryCheck": false,
+        "isSnapEligible": false,
+        "isShipAlone": false,
+        "isShipAsIs": false,
+        "isHazmat": false,
+        "isAirShippable": true,
+        "bundleType": null,
+        "wfsEnabled": false,
+        "storeId": "1804",
+        "fulfilledItemBoList": [
+          {
+            "quantity": {
+              "unitOfMeasure": "EA",
+              "measurementValue": 0.0
+            },
+            "weight": null,
+            "itemDetails": {
+              "gtin": "00875208001247"
+            },
+            "pickedItemDetails": {
+              "gtin": "00875208001247"
+            },
+            "purchaseOrderNo": "9863034680615",
+            "pickType": "ORDERED",
+            "subsType": null,
+            "unitPrice": {
+              "currencyAmount": 3.98,
+              "currencyUnit": "USD"
+            },
+            "pickDetails": null,
+            "unitOfMeasurement": "EA",
+            "priceTypeCode": "1050",
+            "offerId": "386A63102D6943B982A3131A951DF328"
+          }
+        ],
+        "bundleId": null,
+        "streetDate": null,
+        "carePlan": null,
+        "nodeType": "STORE",
+        "accessType": "PICKUP_CURBSIDE",
+        "channelType": null,
+        "accessMode": "DRIVE_IN",
+        "pickupByDate": "2021-10-30T00:00:00.000+0000",
+        "fulfillmentPrerequisites": {
+          "preRequisiteList": [
+            "SCHEDULED_FULFILLMENT_REQUIRED"
+          ]
+        },
+        "alternateInboundPathEligibilities": null,
+        "foLineOperationInsight": null,
+        "lineType": "STORE",
+        "isUnscheduledPickup": false,
+        "preferredQuantity": null,
+        "destSpecification": null,
+        "isFillEligible": null,
+        "flags": null,
+        "groupType": null,
+        "groupSubType": null,
+        "bundleQuantity": null,
+        "bundleComponentQty": null,
+        "isUnscheduled": false,
+        "giftCardFaceValue": null,
+        "recommendedBoxes": null,
+        "snapEligible": false,
+        "airShippable": true,
+        "hazmat": false,
+        "perishable": false,
+        "preOrder": false,
+        "shipAlone": false,
+        "substitutable": true,
+        "signOnDelivery": false,
+        "shipAsIs": false
+      },
+      "quantityStatuses": [
+        {
+          "qtyId": "2b1bbcf4-fff2-40ac-b12e-1d79d0f2ab9a",
+          "status": "CANCELLED",
+          "statusChangeDate": "2021-10-31T21:25:32.086+0000",
+          "createdDate": "2021-10-31T21:25:32.086+0000",
+          "quantityDetails": {
+            "sourcingDetails": {
+              "shipNode": "999901804",
+              "viaLocationId": null,
+              "prevShipNode": null,
+              "carrierMethodId": null,
+              "prevCarrierMethodId": null,
+              "xmlCarrierMethodCode": null,
+              "carrierType": null,
+              "quantity": null,
+              "opd": "2021-10-29T00:00:00.000+0000",
+              "pdd": "2021-10-29T00:00:00.000+0000",
+              "esd": "2021-10-29T00:00:00.000+0000",
+              "valueAddedServices": null,
+              "wpmNo": null,
+              "rdcNo": null,
+              "intermediateHubId": null,
+              "orderCutOff": null,
+              "routeDetails": null,
+              "sourcingErrorBo": null,
+              "status": null,
+              "legacyCode": "LC",
+              "isBackOrder": null,
+              "cancelBODemand": null,
+              "gtin": null,
+              "shipNodeItemId": null,
+              "nodeType": null,
+              "scac": null,
+              "accessMode": null,
+              "accessType": null,
+              "tnt": null,
+              "slaTier": null,
+              "shipMethod": null,
+              "shipNodeOptimizable": null,
+              "handlingCost": null,
+              "fcapPoolId": null
+            },
+            "qty": {
+              "unitOfMeasure": "EA",
+              "measurementValue": 1
+            },
+            "valueAddedServices": null,
+            "storeId": "1804",
+            "fulfilledOfferId": null,
+            "shipNodeItemId": null,
+            "unitCost": null,
+            "sellerLineId": "7",
+            "intentToCancel": true,
+            "boxInstanceId": null,
+            "boxes": null,
+            "boxReferenceId": null,
+            "newFulfillmentType": null,
+            "newShippingMethod": null,
+            "isSellerItem": false,
+            "prevPurchaseOrderNo": null,
+            "purchaseOrderNo": "9863034680615",
+            "sourcingDates": null,
+            "isReshop": false,
+            "reasonCode": "1020",
+            "reasonDescription": "Expired",
+            "subReasonCode": null,
+            "subReasonDescription": null,
+            "reservationDetails": {
+              "messageId": null,
+              "responseCode": null,
+              "responseMessage": null,
+              "reservationStatus": "CS"
+            },
+            "requestId": "91FC562C-E59A-4651-B421-5580DC742CCD",
+            "isSubstitutedFrom": null,
+            "pickType": null,
+            "extrinsticsList": null,
+            "fulfillmentHoldDateTime": null,
+            "fulfillerLineId": "7",
+            "transactionId": "d89017aa-3b4b-476c-b78f-d99f29c48c19",
+            "distributorDetails": {
+              "distributorId": "999901804",
+              "storeId": "1804",
+              "distributorType": "STORE"
+            },
+            "requestType": null,
+            "shipTogetherId": null,
+            "serialNo": null,
+            "activationDetails": null,
+            "activationDetailsVersion": "V2",
+            "activationDetailsBoList": null,
+            "orderBatchingId": null,
+            "releaseCutOffTime": null,
+            "releaseCutOffVersion": null,
+            "anchorQtyShipmentConsidered": false,
+            "nilPickReshop": null,
+            "parentNilPickLineId": null,
+            "itemEnriched": false,
+            "carePlanDetails": null
+          },
+          "rules": null,
+          "eventAttributes": null,
+          "shipmentNo": null,
+          "fulfillmentLegId": null
+        }
+      ],
+      "fulfilledPercentage": null,
+      "attributes": null,
+      "eventAttributes": null,
+      "externalPartnerId": null,
+      "lineType": "PICKUP"
+    },
+    {
+      "createdDate": "2021-10-28T19:24:12.374Z",
+      "modifiedDate": "2021-10-31T21:25:32.220Z",
+      "frLineId": "8",
+      "status": "CREATED",
+      "statusChangeDate": "2021-10-28T19:24:12.350+0000",
+      "sellerLineId": "8",
+      "verticalId": null,
+      "isConfirmed": true,
+      "bocd": null,
+      "itemDetails": {
+        "itemId": "10402651",
+        "sellerId": "F55CDC31AB754BB68FE0B39041159D63",
+        "legacySellerId": "0",
+        "upc": "605806000324",
+        "description": "Celery Hearts",
+        "gtin": "00605806000324",
+        "offerId": "D071F4131E214A929AA17CD5660F5D41",
+        "wupc": "0060580600032",
+        "sku": "00605806000324",
+        "win": "554809994",
+        "imageUrl": "https://i5.walmartimages.com/asr/dfbb7d26-ca1e-4921-b91d-748e2a68933e_1.0cd5c74f71c6c0f99548861ae6f46c40.jpeg",
+        "alternateGTINs": [
+          "00204575000001",
+          "00405550826924",
+          "00885460000100",
+          "00040695123455",
+          "00027918045756",
+          "00000651511030",
+          "00033383653013",
+          "00071430900055",
+          "00740695653036",
+          "00052867150329",
+          "00033383653037",
+          "00030223070108",
+          "00033383653006",
+          "00856758006432",
+          "00060556121109",
+          "00605806000324",
+          "00071430012505",
+          "00333836530107",
+          "00000000045759",
+          "00333836530138",
+          "00648196683401"
+        ],
+        "sellerType": "INTERNAL"
+      },
+      "frLineDetails": {
+        "isSignOnDelivery": false,
+        "isPreOrder": false,
+        "streetDateType": null,
+        "currentStreetDate": "2021-10-28T19:26:14.075+0000",
+        "previousStreetDate": null,
+        "qty": {
+          "unitOfMeasure": "EA",
+          "measurementValue": 1
+        },
+        "fulfillmentType": "PICKUP",
+        "fulfillmentSubType": null,
+        "shipMethod": null,
+        "shippingSlaTier": "SAME_DAY",
+        "lineDates": [
+          {
+            "dateType": "DELIVERY",
+            "minDate": "2021-10-29T00:00:00.000+0000",
+            "maxDate": "2021-10-29T01:00:00.000+0000"
+          },
+          {
+            "dateType": "SHIPPING",
+            "minDate": "2021-10-29T00:00:00.000+0000",
+            "maxDate": "2021-10-29T01:00:00.000+0000"
+          }
+        ],
+        "forcedShipNode": null,
+        "forcedCarrier": null,
+        "addOnServices": null,
+        "gifting": null,
+        "shippingTo": {
+          "contact": {
+            "name": {
+              "firstName": "Walmart Fort Wayne Store #1804",
+              "lastName": "Walmart Fort Wayne Store #1804"
+            },
+            "email": "steph.wigge@gmail.com"
+          },
+          "storeId": "1804",
+          "address": {
+            "line1": "1710 Apple Glen Blvd",
+            "apoFpo": false,
+            "poBox": false,
+            "city": "Fort Wayne",
+            "state": "IN",
+            "country": "USA",
+            "zip": "46804",
+            "addressType": "OFFICE"
+          }
+        },
+        "chargeDetails": [
+          {
+            "chargeCategory": "PRODUCT",
+            "chargeName": "ItemPrice",
+            "chargePerUnit": {
+              "currencyAmount": 2.48,
+              "currencyUnit": "USD"
+            },
+            "chargePerLine": {
+              "currencyAmount": 2.48,
+              "currencyUnit": "USD"
+            },
+            "isDiscount": false,
+            "isBillable": true
+          },
+          {
+            "chargeCategory": "SHIPPING",
+            "chargeName": "Shipping",
+            "chargePerUnit": {
+              "currencyAmount": 0.82,
+              "currencyUnit": "USD"
+            },
+            "chargePerLine": {
+              "currencyAmount": 0.82,
+              "currencyUnit": "USD"
+            },
+            "isDiscount": false,
+            "isBillable": true
+          }
+        ],
+        "isSubstitutable": true,
+        "isPerishable": false,
+        "weight": null,
+        "instructions": null,
+        "lineAttributes": [
+          {
+            "attributeName": "costOfGoods",
+            "values": [
+              "0"
+            ],
+            "type": "STRING"
+          },
+          {
+            "attributeName": "isAlcohol",
+            "values": [
+              "false"
+            ],
+            "type": "BOOLEAN"
+          }
+        ],
+        "skipInventoryCheck": false,
+        "isSnapEligible": false,
+        "isShipAlone": false,
+        "isShipAsIs": null,
+        "isHazmat": false,
+        "isAirShippable": true,
+        "bundleType": null,
+        "wfsEnabled": false,
+        "storeId": "1804",
+        "fulfilledItemBoList": [
+          {
+            "quantity": {
+              "unitOfMeasure": "EA",
+              "measurementValue": 1.0
+            },
+            "weight": null,
+            "itemDetails": {
+              "gtin": "00033383653013"
+            },
+            "pickedItemDetails": {
+              "gtin": "00033383653013"
+            },
+            "purchaseOrderNo": "9863034680615",
+            "pickType": "ORDERED",
+            "subsType": null,
+            "unitPrice": {
+              "currencyAmount": 2.48,
+              "currencyUnit": "USD"
+            },
+            "pickDetails": null,
+            "unitOfMeasurement": "EA",
+            "priceTypeCode": "1050",
+            "offerId": "D071F4131E214A929AA17CD5660F5D41"
+          }
+        ],
+        "bundleId": null,
+        "streetDate": null,
+        "carePlan": null,
+        "nodeType": "STORE",
+        "accessType": "PICKUP_CURBSIDE",
+        "channelType": null,
+        "accessMode": "DRIVE_IN",
+        "pickupByDate": "2021-10-30T00:00:00.000+0000",
+        "fulfillmentPrerequisites": {
+          "preRequisiteList": [
+            "SCHEDULED_FULFILLMENT_REQUIRED"
+          ]
+        },
+        "alternateInboundPathEligibilities": null,
+        "foLineOperationInsight": null,
+        "lineType": "STORE",
+        "isUnscheduledPickup": false,
+        "preferredQuantity": null,
+        "destSpecification": null,
+        "isFillEligible": null,
+        "flags": null,
+        "groupType": null,
+        "groupSubType": null,
+        "bundleQuantity": null,
+        "bundleComponentQty": null,
+        "isUnscheduled": false,
+        "giftCardFaceValue": null,
+        "recommendedBoxes": null,
+        "snapEligible": false,
+        "airShippable": true,
+        "hazmat": false,
+        "perishable": false,
+        "preOrder": false,
+        "shipAlone": false,
+        "substitutable": true,
+        "signOnDelivery": false,
+        "shipAsIs": null
+      },
+      "quantityStatuses": [
+        {
+          "qtyId": "4d4ce5a8-0f8e-4ab4-aaa3-0029d1db57c9",
+          "status": "CANCELLED",
+          "statusChangeDate": "2021-10-31T21:25:32.086+0000",
+          "createdDate": "2021-10-31T21:25:32.086+0000",
+          "quantityDetails": {
+            "sourcingDetails": {
+              "shipNode": "999901804",
+              "viaLocationId": null,
+              "prevShipNode": null,
+              "carrierMethodId": null,
+              "prevCarrierMethodId": null,
+              "xmlCarrierMethodCode": null,
+              "carrierType": null,
+              "quantity": null,
+              "opd": "2021-10-29T00:00:00.000+0000",
+              "pdd": "2021-10-29T00:00:00.000+0000",
+              "esd": "2021-10-29T00:00:00.000+0000",
+              "valueAddedServices": null,
+              "wpmNo": null,
+              "rdcNo": null,
+              "intermediateHubId": null,
+              "orderCutOff": null,
+              "routeDetails": null,
+              "sourcingErrorBo": null,
+              "status": null,
+              "legacyCode": "LC",
+              "isBackOrder": null,
+              "cancelBODemand": null,
+              "gtin": null,
+              "shipNodeItemId": null,
+              "nodeType": null,
+              "scac": null,
+              "accessMode": null,
+              "accessType": null,
+              "tnt": null,
+              "slaTier": null,
+              "shipMethod": null,
+              "shipNodeOptimizable": null,
+              "handlingCost": null,
+              "fcapPoolId": null
+            },
+            "qty": {
+              "unitOfMeasure": "EA",
+              "measurementValue": 1
+            },
+            "valueAddedServices": null,
+            "storeId": "1804",
+            "fulfilledOfferId": null,
+            "shipNodeItemId": null,
+            "unitCost": null,
+            "sellerLineId": "8",
+            "intentToCancel": true,
+            "boxInstanceId": null,
+            "boxes": null,
+            "boxReferenceId": null,
+            "newFulfillmentType": null,
+            "newShippingMethod": null,
+            "isSellerItem": false,
+            "prevPurchaseOrderNo": null,
+            "purchaseOrderNo": "9863034680615",
+            "sourcingDates": null,
+            "isReshop": false,
+            "reasonCode": "1020",
+            "reasonDescription": "Expired",
+            "subReasonCode": null,
+            "subReasonDescription": null,
+            "reservationDetails": {
+              "messageId": null,
+              "responseCode": null,
+              "responseMessage": null,
+              "reservationStatus": "CS"
+            },
+            "requestId": "91FC562C-E59A-4651-B421-5580DC742CCD",
+            "isSubstitutedFrom": null,
+            "pickType": null,
+            "extrinsticsList": null,
+            "fulfillmentHoldDateTime": null,
+            "fulfillerLineId": "8",
+            "transactionId": "d89017aa-3b4b-476c-b78f-d99f29c48c19",
+            "distributorDetails": {
+              "distributorId": "999901804",
+              "storeId": "1804",
+              "distributorType": "STORE"
+            },
+            "requestType": null,
+            "shipTogetherId": null,
+            "serialNo": null,
+            "activationDetails": null,
+            "activationDetailsVersion": "V2",
+            "activationDetailsBoList": null,
+            "orderBatchingId": null,
+            "releaseCutOffTime": null,
+            "releaseCutOffVersion": null,
+            "anchorQtyShipmentConsidered": false,
+            "nilPickReshop": null,
+            "parentNilPickLineId": null,
+            "itemEnriched": false,
+            "carePlanDetails": null
+          },
+          "rules": null,
+          "eventAttributes": null,
+          "shipmentNo": null,
+          "fulfillmentLegId": null
+        }
+      ],
+      "fulfilledPercentage": null,
+      "attributes": null,
+      "eventAttributes": null,
+      "externalPartnerId": null,
+      "lineType": "PICKUP"
+    },
+    {
+      "createdDate": "2021-10-28T19:24:12.374Z",
+      "modifiedDate": "2021-10-31T21:25:32.220Z",
+      "frLineId": "9",
+      "status": "CREATED",
+      "statusChangeDate": "2021-10-28T19:24:12.350+0000",
+      "sellerLineId": "9",
+      "verticalId": null,
+      "isConfirmed": true,
+      "bocd": null,
+      "itemDetails": {
+        "itemId": "44391515",
+        "sellerId": "F55CDC31AB754BB68FE0B39041159D63",
+        "legacySellerId": "0",
+        "upc": "033383660004",
+        "description": "Whole Carrots, 1lb bag",
+        "gtin": "00033383660004",
+        "offerId": "A4A88FF8798F4A79A2DBEA9688634009",
+        "wupc": "0003338366000",
+        "sku": "00033383660004",
+        "win": "9407950",
+        "imageUrl": "https://i5.walmartimages.com/asr/5920bc6b-1db0-4af3-9f23-dddc46c0095f_1.e20c8ba41055db1ac42dfbc1e08d2fe0.jpeg",
+        "alternateGTINs": [
+          "00814905012453",
+          "00033383664002",
+          "00605806124129",
+          "00204365000006",
+          "00071464146986",
+          "00852442002001",
+          "00204562000007",
+          "00857359002106",
+          "00033383660004",
+          "00605806124099",
+          "00000000045629",
+          "00000000040945"
+        ],
+        "sellerType": "INTERNAL"
+      },
+      "frLineDetails": {
+        "isSignOnDelivery": false,
+        "isPreOrder": false,
+        "streetDateType": null,
+        "currentStreetDate": "2021-10-28T19:26:14.075+0000",
+        "previousStreetDate": null,
+        "qty": {
+          "unitOfMeasure": "EA",
+          "measurementValue": 1
+        },
+        "fulfillmentType": "PICKUP",
+        "fulfillmentSubType": null,
+        "shipMethod": null,
+        "shippingSlaTier": "SAME_DAY",
+        "lineDates": [
+          {
+            "dateType": "DELIVERY",
+            "minDate": "2021-10-29T00:00:00.000+0000",
+            "maxDate": "2021-10-29T01:00:00.000+0000"
+          },
+          {
+            "dateType": "SHIPPING",
+            "minDate": "2021-10-29T00:00:00.000+0000",
+            "maxDate": "2021-10-29T01:00:00.000+0000"
+          }
+        ],
+        "forcedShipNode": null,
+        "forcedCarrier": null,
+        "addOnServices": null,
+        "gifting": null,
+        "shippingTo": {
+          "contact": {
+            "name": {
+              "firstName": "Walmart Fort Wayne Store #1804",
+              "lastName": "Walmart Fort Wayne Store #1804"
+            },
+            "email": "steph.wigge@gmail.com"
+          },
+          "storeId": "1804",
+          "address": {
+            "line1": "1710 Apple Glen Blvd",
+            "apoFpo": false,
+            "poBox": false,
+            "city": "Fort Wayne",
+            "state": "IN",
+            "country": "USA",
+            "zip": "46804",
+            "addressType": "OFFICE"
+          }
+        },
+        "chargeDetails": [
+          {
+            "chargeCategory": "PRODUCT",
+            "chargeName": "ItemPrice",
+            "chargePerUnit": {
+              "currencyAmount": 0.92,
+              "currencyUnit": "USD"
+            },
+            "chargePerLine": {
+              "currencyAmount": 0.92,
+              "currencyUnit": "USD"
+            },
+            "isDiscount": false,
+            "isBillable": true
+          },
+          {
+            "chargeCategory": "SHIPPING",
+            "chargeName": "Shipping",
+            "chargePerUnit": {
+              "currencyAmount": 0.31,
+              "currencyUnit": "USD"
+            },
+            "chargePerLine": {
+              "currencyAmount": 0.31,
+              "currencyUnit": "USD"
+            },
+            "isDiscount": false,
+            "isBillable": true
+          }
+        ],
+        "isSubstitutable": true,
+        "isPerishable": false,
+        "weight": null,
+        "instructions": null,
+        "lineAttributes": [
+          {
+            "attributeName": "costOfGoods",
+            "values": [
+              "0"
+            ],
+            "type": "STRING"
+          },
+          {
+            "attributeName": "isAlcohol",
+            "values": [
+              "false"
+            ],
+            "type": "BOOLEAN"
+          }
+        ],
+        "skipInventoryCheck": false,
+        "isSnapEligible": false,
+        "isShipAlone": false,
+        "isShipAsIs": null,
+        "isHazmat": false,
+        "isAirShippable": true,
+        "bundleType": null,
+        "wfsEnabled": false,
+        "storeId": "1804",
+        "fulfilledItemBoList": [
+          {
+            "quantity": {
+              "unitOfMeasure": "EA",
+              "measurementValue": 1.0
+            },
+            "weight": null,
+            "itemDetails": {
+              "gtin": "00033383660004"
+            },
+            "pickedItemDetails": {
+              "gtin": "00033383660004"
+            },
+            "purchaseOrderNo": "9863034680615",
+            "pickType": "ORDERED",
+            "subsType": null,
+            "unitPrice": {
+              "currencyAmount": 0.92,
+              "currencyUnit": "USD"
+            },
+            "pickDetails": null,
+            "unitOfMeasurement": "EA",
+            "priceTypeCode": "1050",
+            "offerId": "A4A88FF8798F4A79A2DBEA9688634009"
+          }
+        ],
+        "bundleId": null,
+        "streetDate": null,
+        "carePlan": null,
+        "nodeType": "STORE",
+        "accessType": "PICKUP_CURBSIDE",
+        "channelType": null,
+        "accessMode": "DRIVE_IN",
+        "pickupByDate": "2021-10-30T00:00:00.000+0000",
+        "fulfillmentPrerequisites": {
+          "preRequisiteList": [
+            "SCHEDULED_FULFILLMENT_REQUIRED"
+          ]
+        },
+        "alternateInboundPathEligibilities": null,
+        "foLineOperationInsight": null,
+        "lineType": "STORE",
+        "isUnscheduledPickup": false,
+        "preferredQuantity": null,
+        "destSpecification": null,
+        "isFillEligible": null,
+        "flags": null,
+        "groupType": null,
+        "groupSubType": null,
+        "bundleQuantity": null,
+        "bundleComponentQty": null,
+        "isUnscheduled": false,
+        "giftCardFaceValue": null,
+        "recommendedBoxes": null,
+        "snapEligible": false,
+        "airShippable": true,
+        "hazmat": false,
+        "perishable": false,
+        "preOrder": false,
+        "shipAlone": false,
+        "substitutable": true,
+        "signOnDelivery": false,
+        "shipAsIs": null
+      },
+      "quantityStatuses": [
+        {
+          "qtyId": "18ee0c53-f389-427b-b068-954206a24f94",
+          "status": "CANCELLED",
+          "statusChangeDate": "2021-10-31T21:25:32.086+0000",
+          "createdDate": "2021-10-31T21:25:32.086+0000",
+          "quantityDetails": {
+            "sourcingDetails": {
+              "shipNode": "999901804",
+              "viaLocationId": null,
+              "prevShipNode": null,
+              "carrierMethodId": null,
+              "prevCarrierMethodId": null,
+              "xmlCarrierMethodCode": null,
+              "carrierType": null,
+              "quantity": null,
+              "opd": "2021-10-29T00:00:00.000+0000",
+              "pdd": "2021-10-29T00:00:00.000+0000",
+              "esd": "2021-10-29T00:00:00.000+0000",
+              "valueAddedServices": null,
+              "wpmNo": null,
+              "rdcNo": null,
+              "intermediateHubId": null,
+              "orderCutOff": null,
+              "routeDetails": null,
+              "sourcingErrorBo": null,
+              "status": null,
+              "legacyCode": "LC",
+              "isBackOrder": null,
+              "cancelBODemand": null,
+              "gtin": null,
+              "shipNodeItemId": null,
+              "nodeType": null,
+              "scac": null,
+              "accessMode": null,
+              "accessType": null,
+              "tnt": null,
+              "slaTier": null,
+              "shipMethod": null,
+              "shipNodeOptimizable": null,
+              "handlingCost": null,
+              "fcapPoolId": null
+            },
+            "qty": {
+              "unitOfMeasure": "EA",
+              "measurementValue": 1
+            },
+            "valueAddedServices": null,
+            "storeId": "1804",
+            "fulfilledOfferId": null,
+            "shipNodeItemId": null,
+            "unitCost": null,
+            "sellerLineId": "9",
+            "intentToCancel": true,
+            "boxInstanceId": null,
+            "boxes": null,
+            "boxReferenceId": null,
+            "newFulfillmentType": null,
+            "newShippingMethod": null,
+            "isSellerItem": false,
+            "prevPurchaseOrderNo": null,
+            "purchaseOrderNo": "9863034680615",
+            "sourcingDates": null,
+            "isReshop": false,
+            "reasonCode": "1020",
+            "reasonDescription": "Expired",
+            "subReasonCode": null,
+            "subReasonDescription": null,
+            "reservationDetails": {
+              "messageId": null,
+              "responseCode": null,
+              "responseMessage": null,
+              "reservationStatus": "CS"
+            },
+            "requestId": "91FC562C-E59A-4651-B421-5580DC742CCD",
+            "isSubstitutedFrom": null,
+            "pickType": null,
+            "extrinsticsList": null,
+            "fulfillmentHoldDateTime": null,
+            "fulfillerLineId": "9",
+            "transactionId": "d89017aa-3b4b-476c-b78f-d99f29c48c19",
+            "distributorDetails": {
+              "distributorId": "999901804",
+              "storeId": "1804",
+              "distributorType": "STORE"
+            },
+            "requestType": null,
+            "shipTogetherId": null,
+            "serialNo": null,
+            "activationDetails": null,
+            "activationDetailsVersion": "V2",
+            "activationDetailsBoList": null,
+            "orderBatchingId": null,
+            "releaseCutOffTime": null,
+            "releaseCutOffVersion": null,
+            "anchorQtyShipmentConsidered": false,
+            "nilPickReshop": null,
+            "parentNilPickLineId": null,
+            "itemEnriched": false,
+            "carePlanDetails": null
+          },
+          "rules": null,
+          "eventAttributes": null,
+          "shipmentNo": null,
+          "fulfillmentLegId": null
+        }
+      ],
+      "fulfilledPercentage": null,
+      "attributes": null,
+      "eventAttributes": null,
+      "externalPartnerId": null,
+      "lineType": "PICKUP"
+    },
+    {
+      "createdDate": "2021-10-28T19:26:14.579Z",
+      "modifiedDate": "2021-10-31T21:25:32.220Z",
+      "frLineId": "10",
+      "status": "CREATED",
+      "statusChangeDate": "2021-10-28T19:26:14.544+0000",
+      "sellerLineId": "10",
+      "verticalId": null,
+      "isConfirmed": true,
+      "bocd": null,
+      "itemDetails": {
+        "itemId": "51259212",
+        "sellerId": "F55CDC31AB754BB68FE0B39041159D63",
+        "legacySellerId": "0",
+        "upc": "000000040938",
+        "description": "Yellow Onions, Each",
+        "gtin": "00000000040938",
+        "offerId": "97FFC792AAB349CDB52A2F74EF017A2E",
+        "wupc": "0000000004093",
+        "sku": "00000000040938",
+        "itemClass": "1",
+        "win": "551376392",
+        "imageUrl": "https://i5.walmartimages.com/asr/33813ffc-7fc4-4ff5-8667-897307ca4054_3.c1faf49fe38fb5e447847773284aaafd.jpeg",
+        "commodityCode": "99",
+        "alternateGTINs": [
+          "00854436002011",
+          "00887051000148",
+          "00204093000002",
+          "00885677002034",
+          "00850023541260",
+          "00027918040935",
+          "00813682015398",
+          "00026208040938",
+          "00400094183113",
+          "00051553040937",
+          "00853166002162",
+          "00812396017148",
+          "00853120003105",
+          "00811289020029",
+          "00815222010009",
+          "00735718000034",
+          "00096052040934",
+          "00851533003385",
+          "00667859040931",
+          "00897810002061",
+          "00815650010756",
+          "00851339002179",
+          "00881200040931",
+          "00659513000016",
+          "00661061110826",
+          "00853357002933"
+        ],
+        "sellerType": "INTERNAL"
+      },
+      "frLineDetails": {
+        "isSignOnDelivery": false,
+        "isPreOrder": false,
+        "streetDateType": null,
+        "currentStreetDate": "2021-10-28T19:26:14.075+0000",
+        "previousStreetDate": null,
+        "qty": {
+          "unitOfMeasure": "LB",
+          "measurementValue": 1
+        },
+        "fulfillmentType": "PICKUP",
+        "fulfillmentSubType": null,
+        "shipMethod": null,
+        "shippingSlaTier": "SAME_DAY",
+        "lineDates": [
+          {
+            "dateType": "DELIVERY",
+            "minDate": "2021-10-29T00:00:00.000+0000",
+            "maxDate": "2021-10-29T01:00:00.000+0000"
+          },
+          {
+            "dateType": "SHIPPING",
+            "minDate": "2021-10-29T00:00:00.000+0000",
+            "maxDate": "2021-10-29T01:00:00.000+0000"
+          }
+        ],
+        "forcedShipNode": null,
+        "forcedCarrier": null,
+        "addOnServices": null,
+        "gifting": null,
+        "shippingTo": {
+          "contact": {
+            "name": {
+              "firstName": "Walmart Fort Wayne Store #1804",
+              "lastName": "Walmart Fort Wayne Store #1804"
+            },
+            "email": "steph.wigge@gmail.com"
+          },
+          "storeId": "1804",
+          "address": {
+            "line1": "1710 Apple Glen Blvd",
+            "apoFpo": false,
+            "poBox": false,
+            "city": "Fort Wayne",
+            "state": "IN",
+            "country": "USA",
+            "zip": "46804",
+            "addressType": "OFFICE"
+          }
+        },
+        "chargeDetails": [
+          {
+            "chargeCategory": "PRODUCT",
+            "chargeName": "ItemPrice",
+            "chargePerUnit": {
+              "currencyAmount": 0.62,
+              "currencyUnit": "USD"
+            },
+            "chargePerLine": {
+              "currencyAmount": 0.62,
+              "currencyUnit": "USD"
+            },
+            "isDiscount": false,
+            "isBillable": true
+          },
+          {
+            "chargeCategory": "SHIPPING",
+            "chargeName": "Shipping",
+            "chargePerUnit": {
+              "currencyAmount": 0.21,
+              "currencyUnit": "USD"
+            },
+            "chargePerLine": {
+              "currencyAmount": 0.21,
+              "currencyUnit": "USD"
+            },
+            "isDiscount": false,
+            "isBillable": true
+          },
+          {
+            "chargeCategory": "ADDITIONAL_HOLD_AMT",
+            "chargeName": "weightHoldPrice",
+            "chargePerUnit": {
+              "currencyAmount": 0.24,
+              "currencyUnit": "USD"
+            },
+            "chargePerLine": {
+              "currencyAmount": 0.24,
+              "currencyUnit": "USD"
+            },
+            "isDiscount": false,
+            "isBillable": true
+          }
+        ],
+        "isSubstitutable": true,
+        "isPerishable": false,
+        "weight": {
+          "unitOfMeasure": "LB",
+          "measurementValue": 0.8,
+          "max": null,
+          "min": null
+        },
+        "instructions": null,
+        "lineAttributes": [
+          {
+            "attributeName": "snapEligible",
+            "values": [
+              "true"
+            ],
+            "type": "STRING"
+          },
+          {
+            "attributeName": "customerItem",
+            "values": [
+              "317"
+            ],
+            "type": "STRING"
+          },
+          {
+            "attributeName": "isEventActive",
+            "values": [
+              "false"
+            ],
+            "type": "STRING"
+          },
+          {
+            "attributeName": "isAverageWeightItem",
+            "values": [
+              "false"
+            ],
+            "type": "STRING"
+          },
+          {
+            "attributeName": "primaryItemID",
+            "values": [
+              "51259212"
+            ],
+            "type": "STRING"
+          },
+          {
+            "attributeName": "amendQuantity",
+            "values": [
+              "1"
+            ],
+            "type": "STRING"
+          },
+          {
+            "attributeName": "overrideIROPrice",
+            "values": [
+              "N"
+            ],
+            "type": "STRING"
+          },
+          {
+            "attributeName": "isAlcohol",
+            "values": [
+              "false"
+            ],
+            "type": "BOOLEAN"
+          }
+        ],
+        "skipInventoryCheck": false,
+        "isSnapEligible": false,
+        "isShipAlone": false,
+        "isShipAsIs": false,
+        "isHazmat": false,
+        "isAirShippable": true,
+        "bundleType": null,
+        "wfsEnabled": false,
+        "storeId": "1804",
+        "fulfilledItemBoList": [
+          {
+            "quantity": {
+              "unitOfMeasure": "LB",
+              "measurementValue": 1.0
+            },
+            "weight": {
+              "unitOfMeasure": "LB",
+              "measurementValue": 0.66,
+              "max": null,
+              "min": null
+            },
+            "itemDetails": {
+              "gtin": "00204093200525",
+              "pebGtin": "00000000040938"
+            },
+            "pickedItemDetails": {
+              "gtin": "00204093200525",
+              "pebGtin": "00000000040938"
+            },
+            "purchaseOrderNo": "9863034680615",
+            "pickType": "ORDERED",
+            "subsType": null,
+            "unitPrice": {
+              "currencyAmount": 0.78,
+              "currencyUnit": "USD"
+            },
+            "pickDetails": null,
+            "unitOfMeasurement": "LB",
+            "priceTypeCode": "1050",
+            "offerId": "97FFC792AAB349CDB52A2F74EF017A2E"
+          }
+        ],
+        "bundleId": null,
+        "streetDate": null,
+        "carePlan": null,
+        "nodeType": "STORE",
+        "accessType": "PICKUP_CURBSIDE",
+        "channelType": null,
+        "accessMode": "DRIVE_IN",
+        "pickupByDate": "2021-10-30T00:00:00.000+0000",
+        "fulfillmentPrerequisites": null,
+        "alternateInboundPathEligibilities": null,
+        "foLineOperationInsight": null,
+        "lineType": null,
+        "isUnscheduledPickup": false,
+        "preferredQuantity": {
+          "unitOfMeasure": "EA",
+          "measurementValue": 1
+        },
+        "destSpecification": null,
+        "isFillEligible": null,
+        "flags": null,
+        "groupType": null,
+        "groupSubType": null,
+        "bundleQuantity": null,
+        "bundleComponentQty": null,
+        "isUnscheduled": false,
+        "giftCardFaceValue": null,
+        "recommendedBoxes": null,
+        "snapEligible": false,
+        "airShippable": true,
+        "hazmat": false,
+        "perishable": false,
+        "preOrder": false,
+        "shipAlone": false,
+        "substitutable": true,
+        "signOnDelivery": false,
+        "shipAsIs": false
+      },
+      "quantityStatuses": [
+        {
+          "qtyId": "0d048e18-863f-426a-b04c-279e2f1f751e",
+          "status": "CANCELLED",
+          "statusChangeDate": "2021-10-31T21:25:32.086+0000",
+          "createdDate": "2021-10-31T21:25:32.086+0000",
+          "quantityDetails": {
+            "sourcingDetails": {
+              "shipNode": "999901804",
+              "viaLocationId": null,
+              "prevShipNode": null,
+              "carrierMethodId": null,
+              "prevCarrierMethodId": null,
+              "xmlCarrierMethodCode": null,
+              "carrierType": null,
+              "quantity": null,
+              "opd": "2021-10-29T00:00:00.000+0000",
+              "pdd": "2021-10-29T00:00:00.000+0000",
+              "esd": "2021-10-29T00:00:00.000+0000",
+              "valueAddedServices": null,
+              "wpmNo": null,
+              "rdcNo": null,
+              "intermediateHubId": null,
+              "orderCutOff": null,
+              "routeDetails": null,
+              "sourcingErrorBo": null,
+              "status": null,
+              "legacyCode": "LC",
+              "isBackOrder": null,
+              "cancelBODemand": null,
+              "gtin": null,
+              "shipNodeItemId": null,
+              "nodeType": null,
+              "scac": null,
+              "accessMode": null,
+              "accessType": null,
+              "tnt": null,
+              "slaTier": null,
+              "shipMethod": null,
+              "shipNodeOptimizable": null,
+              "handlingCost": null,
+              "fcapPoolId": null
+            },
+            "qty": {
+              "unitOfMeasure": "LB",
+              "measurementValue": 1
+            },
+            "valueAddedServices": null,
+            "storeId": "1804",
+            "fulfilledOfferId": null,
+            "shipNodeItemId": null,
+            "unitCost": null,
+            "sellerLineId": "10",
+            "intentToCancel": true,
+            "boxInstanceId": null,
+            "boxes": null,
+            "boxReferenceId": null,
+            "newFulfillmentType": null,
+            "newShippingMethod": null,
+            "isSellerItem": false,
+            "prevPurchaseOrderNo": null,
+            "purchaseOrderNo": "9863034680615",
+            "sourcingDates": null,
+            "isReshop": false,
+            "reasonCode": "1020",
+            "reasonDescription": "Expired",
+            "subReasonCode": null,
+            "subReasonDescription": null,
+            "reservationDetails": {
+              "messageId": "7c2d0795-5b67-440b-9ed4-311abd1d324b",
+              "responseCode": "RES_01_001",
+              "responseMessage": "Completely Reserved",
+              "reservationStatus": "CS"
+            },
+            "requestId": "91FC562C-E59A-4651-B421-5580DC742CCD",
+            "isSubstitutedFrom": null,
+            "pickType": null,
+            "extrinsticsList": null,
+            "fulfillmentHoldDateTime": null,
+            "fulfillerLineId": "10",
+            "transactionId": "d89017aa-3b4b-476c-b78f-d99f29c48c19",
+            "distributorDetails": {
+              "distributorId": "999901804",
+              "storeId": "1804",
+              "distributorType": "STORE"
+            },
+            "requestType": null,
+            "shipTogetherId": null,
+            "serialNo": null,
+            "activationDetails": null,
+            "activationDetailsVersion": "V2",
+            "activationDetailsBoList": null,
+            "orderBatchingId": null,
+            "releaseCutOffTime": null,
+            "releaseCutOffVersion": null,
+            "anchorQtyShipmentConsidered": false,
+            "nilPickReshop": null,
+            "parentNilPickLineId": null,
+            "itemEnriched": false,
+            "carePlanDetails": null
+          },
+          "rules": null,
+          "eventAttributes": null,
+          "shipmentNo": null,
+          "fulfillmentLegId": null
+        }
+      ],
+      "fulfilledPercentage": null,
+      "attributes": null,
+      "eventAttributes": null,
+      "externalPartnerId": null,
+      "lineType": "PICKUP"
+    }
+  ],
+  "etag": "\"1500af22-0000-0500-0000-617f09cc0000\"",
+  "requestId": null,
+  "eventAttributes": null,
+  "requestDetails": null,
+  "updateType": null,
+  "frAmendVersion": 1,
+  "isStressTestOrder": false,
+  "auditEventIdToStatusMap": null,
+  "ttl": -1,
+  "modelType": "FR",
+  "modelId": "US|5722106988174",
+  "orderNum": "5722106988174"
+}
